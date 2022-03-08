@@ -78545,6 +78545,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1441184346688106643, guid: 56be3b766db9d7b4ab4af61ad47ebee4,
+        type: 3}
+      propertyPath: m_ModelPrefab
+      value: 
+      objectReference: {fileID: 7207922615930488248, guid: c693385952467044aa9584e7f506be34,
+        type: 3}
+    - target: {fileID: 1441184346786738594, guid: 56be3b766db9d7b4ab4af61ad47ebee4,
+        type: 3}
+      propertyPath: m_ModelPrefab
+      value: 
+      objectReference: {fileID: 7207922615930488248, guid: c727174ad4902184a9da9c0ab795f660,
+        type: 3}
     - target: {fileID: 1441184347651302992, guid: 56be3b766db9d7b4ab4af61ad47ebee4,
         type: 3}
       propertyPath: m_Name
