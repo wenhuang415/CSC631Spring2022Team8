@@ -31287,9 +31287,10 @@ GameObject:
   m_Component:
   - component: {fileID: 721254942}
   - component: {fileID: 721254945}
-  - component: {fileID: 721254944}
   - component: {fileID: 721254943}
+  - component: {fileID: 721254947}
   - component: {fileID: 721254946}
+  - component: {fileID: 721254944}
   m_Layer: 7
   m_Name: M1911 Magazine_Steel (2)
   m_TagString: PMag
@@ -31334,10 +31335,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 721254941}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
+  m_Script: {fileID: 11500000, guid: 4179befe28299714c8897aa93d1f9837, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 723987856}
+  m_InteractionManager: {fileID: 0}
   m_Colliders: []
   m_InteractionLayerMask:
     serializedVersion: 2
@@ -31465,6 +31466,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 721254941}
   m_Enabled: 1
   m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizeVelocity: 1
+  m_SynchronizeAngularVelocity: 1
+  m_TeleportEnabled: 1
+  m_TeleportIfDistanceGreaterThan: 3
+--- !u!114 &721254947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 721254941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -31472,10 +31489,11 @@ MonoBehaviour:
   Group: 0
   prefixField: -1
   Synchronization: 3
-  OwnershipTransfer: 0
+  OwnershipTransfer: 1
   observableSearch: 2
-  ObservedComponents: []
-  sceneViewId: 5
+  ObservedComponents:
+  - {fileID: 721254946}
+  sceneViewId: 6
   InstantiationId: 0
   isRuntimeInstantiated: 0
 --- !u!1 &721851200
@@ -43443,9 +43461,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1029885856}
   - component: {fileID: 1029885859}
-  - component: {fileID: 1029885858}
   - component: {fileID: 1029885857}
+  - component: {fileID: 1029885861}
   - component: {fileID: 1029885860}
+  - component: {fileID: 1029885858}
   m_Layer: 7
   m_Name: M1911 Magazine_Steel (3)
   m_TagString: PMag
@@ -43490,10 +43509,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1029885855}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
+  m_Script: {fileID: 11500000, guid: 4179befe28299714c8897aa93d1f9837, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 723987856}
+  m_InteractionManager: {fileID: 0}
   m_Colliders: []
   m_InteractionLayerMask:
     serializedVersion: 2
@@ -43621,6 +43640,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 1029885855}
   m_Enabled: 1
   m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizeVelocity: 1
+  m_SynchronizeAngularVelocity: 1
+  m_TeleportEnabled: 1
+  m_TeleportIfDistanceGreaterThan: 3
+--- !u!114 &1029885861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1029885855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -43628,10 +43663,11 @@ MonoBehaviour:
   Group: 0
   prefixField: -1
   Synchronization: 3
-  OwnershipTransfer: 0
+  OwnershipTransfer: 1
   observableSearch: 2
-  ObservedComponents: []
-  sceneViewId: 1
+  ObservedComponents:
+  - {fileID: 1029885860}
+  sceneViewId: 3
   InstantiationId: 0
   isRuntimeInstantiated: 0
 --- !u!1001 &1035687297
@@ -62749,136 +62785,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 4271e1f51cf274c499b8283b04da0c03, type: 3}
---- !u!114 &1508153014
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2867417284940032013}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 723987856}
-  m_Colliders:
-  - {fileID: 766307710}
-  - {fileID: 721851202}
-  - {fileID: 1554473435}
-  m_InteractionLayerMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_InteractionLayers:
-    m_Bits: 1
-  m_SelectMode: 0
-  m_CustomReticle: {fileID: 0}
-  m_FirstHoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_LastHoverExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_HoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_HoverExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FirstSelectEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_LastSelectExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_SelectEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_SelectExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Activated:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 4283532954312809764}
-        m_TargetAssemblyTypeName: SimpleShoot, Assembly-CSharp
-        m_MethodName: triggerPull
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  m_Deactivated:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnFirstHoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnLastHoverExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnHoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnHoverExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnSelectEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnSelectExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnSelectCanceled:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnActivate:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnDeactivate:
-    m_PersistentCalls:
-      m_Calls: []
-  m_AttachTransform: {fileID: 1939607996}
-  m_AttachEaseInTime: 0.15
-  m_MovementType: 2
-  m_VelocityDamping: 1
-  m_VelocityScale: 1
-  m_AngularVelocityDamping: 1
-  m_AngularVelocityScale: 1
-  m_TrackPosition: 1
-  m_SmoothPosition: 0
-  m_SmoothPositionAmount: 5
-  m_TightenPosition: 0.5
-  m_TrackRotation: 1
-  m_SmoothRotation: 0
-  m_SmoothRotationAmount: 5
-  m_TightenRotation: 0.5
-  m_ThrowOnDetach: 1
-  m_ThrowSmoothingDuration: 0.25
-  m_ThrowSmoothingCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 1
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  m_ThrowVelocityScale: 1.5
-  m_ThrowAngularVelocityScale: 1
-  m_ForceGravityOnDetach: 0
-  m_RetainTransformParent: 1
-  m_AttachPointCompatibilityMode: 0
 --- !u!54 &1508153015
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -80376,7 +80282,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1945671713}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
+  m_Script: {fileID: 11500000, guid: 4179befe28299714c8897aa93d1f9837, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 0}
@@ -80526,6 +80432,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 1945671713}
   m_Enabled: 1
   m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizeVelocity: 1
+  m_SynchronizeAngularVelocity: 1
+  m_TeleportEnabled: 1
+  m_TeleportIfDistanceGreaterThan: 3
+--- !u!114 &1945671719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1945671713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -80533,10 +80455,11 @@ MonoBehaviour:
   Group: 0
   prefixField: -1
   Synchronization: 3
-  OwnershipTransfer: 0
+  OwnershipTransfer: 1
   observableSearch: 2
-  ObservedComponents: []
-  sceneViewId: 4
+  ObservedComponents:
+  - {fileID: 1945671718}
+  sceneViewId: 5
   InstantiationId: 0
   isRuntimeInstantiated: 0
 --- !u!1001 &1947091828
@@ -84588,9 +84511,10 @@ GameObject:
   m_Component:
   - component: {fileID: 2014680327}
   - component: {fileID: 2014680330}
-  - component: {fileID: 2014680329}
   - component: {fileID: 2014680328}
+  - component: {fileID: 2014680332}
   - component: {fileID: 2014680331}
+  - component: {fileID: 2014680329}
   m_Layer: 7
   m_Name: M1911 Magazine_Steel (1)
   m_TagString: PMag
@@ -84635,10 +84559,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2014680326}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
+  m_Script: {fileID: 11500000, guid: 4179befe28299714c8897aa93d1f9837, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 723987856}
+  m_InteractionManager: {fileID: 0}
   m_Colliders: []
   m_InteractionLayerMask:
     serializedVersion: 2
@@ -84766,6 +84690,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 2014680326}
   m_Enabled: 1
   m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizeVelocity: 1
+  m_SynchronizeAngularVelocity: 1
+  m_TeleportEnabled: 1
+  m_TeleportIfDistanceGreaterThan: 3
+--- !u!114 &2014680332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2014680326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -84773,10 +84713,11 @@ MonoBehaviour:
   Group: 0
   prefixField: -1
   Synchronization: 3
-  OwnershipTransfer: 0
+  OwnershipTransfer: 1
   observableSearch: 2
-  ObservedComponents: []
-  sceneViewId: 3
+  ObservedComponents:
+  - {fileID: 2014680331}
+  sceneViewId: 2
   InstantiationId: 0
   isRuntimeInstantiated: 0
 --- !u!1001 &2016676581
@@ -89785,13 +89726,69 @@ PrefabInstance:
       propertyPath: m_ModelPrefab
       value: 
       objectReference: {fileID: 7207922615930488248, guid: c693385952467044aa9584e7f506be34, type: 3}
+    - target: {fileID: 1441184346688106645, guid: 56be3b766db9d7b4ab4af61ad47ebee4, type: 3}
+      propertyPath: m_HideControllerOnSelect
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1441184346688106645, guid: 56be3b766db9d7b4ab4af61ad47ebee4, type: 3}
+      propertyPath: m_HapticHoverEnterDuration
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1441184346688106645, guid: 56be3b766db9d7b4ab4af61ad47ebee4, type: 3}
+      propertyPath: m_HapticHoverEnterIntensity
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1441184346688106645, guid: 56be3b766db9d7b4ab4af61ad47ebee4, type: 3}
+      propertyPath: m_HapticSelectEnterDuration
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1441184346688106645, guid: 56be3b766db9d7b4ab4af61ad47ebee4, type: 3}
+      propertyPath: m_PlayHapticsOnHoverEntered
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1441184346688106645, guid: 56be3b766db9d7b4ab4af61ad47ebee4, type: 3}
+      propertyPath: m_HapticSelectEnterIntensity
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1441184346688106645, guid: 56be3b766db9d7b4ab4af61ad47ebee4, type: 3}
+      propertyPath: m_PlayHapticsOnSelectEntered
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1441184346786738594, guid: 56be3b766db9d7b4ab4af61ad47ebee4, type: 3}
       propertyPath: m_ModelPrefab
       value: 
       objectReference: {fileID: 7207922615930488248, guid: c727174ad4902184a9da9c0ab795f660, type: 3}
+    - target: {fileID: 1441184346786738596, guid: 56be3b766db9d7b4ab4af61ad47ebee4, type: 3}
+      propertyPath: m_HideControllerOnSelect
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1441184346786738596, guid: 56be3b766db9d7b4ab4af61ad47ebee4, type: 3}
+      propertyPath: m_HapticHoverEnterDuration
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1441184346786738596, guid: 56be3b766db9d7b4ab4af61ad47ebee4, type: 3}
+      propertyPath: m_HapticHoverEnterIntensity
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1441184346786738596, guid: 56be3b766db9d7b4ab4af61ad47ebee4, type: 3}
+      propertyPath: m_HapticSelectEnterDuration
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1441184346786738596, guid: 56be3b766db9d7b4ab4af61ad47ebee4, type: 3}
+      propertyPath: m_PlayHapticsOnHoverEntered
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1441184346786738596, guid: 56be3b766db9d7b4ab4af61ad47ebee4, type: 3}
+      propertyPath: m_HapticSelectEnterIntensity
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1441184346786738596, guid: 56be3b766db9d7b4ab4af61ad47ebee4, type: 3}
+      propertyPath: m_PlayHapticsOnSelectEntered
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1441184347651302992, guid: 56be3b766db9d7b4ab4af61ad47ebee4, type: 3}
       propertyPath: m_Name
-      value: VR Rig
+      value: XR Rig
       objectReference: {fileID: 0}
     - target: {fileID: 1441184347651302992, guid: 56be3b766db9d7b4ab4af61ad47ebee4, type: 3}
       propertyPath: m_Layer
@@ -89937,8 +89934,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2872250910114811515}
   - component: {fileID: 1508153015}
-  - component: {fileID: 1508153014}
+  - component: {fileID: 2867417284940032015}
   - component: {fileID: 2867417284940032014}
+  - component: {fileID: 2867417284940032016}
   m_Layer: 7
   m_Name: M1911 Handgun_Silver (Shooting)
   m_TagString: Untagged
@@ -89955,6 +89953,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 2867417284940032013}
   m_Enabled: 1
   m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizeVelocity: 1
+  m_SynchronizeAngularVelocity: 1
+  m_TeleportEnabled: 1
+  m_TeleportIfDistanceGreaterThan: 3
+--- !u!114 &2867417284940032015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2867417284940032013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -89962,12 +89976,128 @@ MonoBehaviour:
   Group: 0
   prefixField: -1
   Synchronization: 3
-  OwnershipTransfer: 0
+  OwnershipTransfer: 1
   observableSearch: 2
-  ObservedComponents: []
-  sceneViewId: 6
+  ObservedComponents:
+  - {fileID: 2867417284940032014}
+  sceneViewId: 4
   InstantiationId: 0
   isRuntimeInstantiated: 0
+--- !u!114 &2867417284940032016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2867417284940032013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4179befe28299714c8897aa93d1f9837, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_InteractionManager: {fileID: 0}
+  m_Colliders: []
+  m_InteractionLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_InteractionLayers:
+    m_Bits: 1
+  m_SelectMode: 0
+  m_CustomReticle: {fileID: 0}
+  m_FirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Activated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnFirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnLastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectCanceled:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnActivate:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnDeactivate:
+    m_PersistentCalls:
+      m_Calls: []
+  m_AttachTransform: {fileID: 0}
+  m_AttachEaseInTime: 0.15
+  m_MovementType: 2
+  m_VelocityDamping: 1
+  m_VelocityScale: 1
+  m_AngularVelocityDamping: 1
+  m_AngularVelocityScale: 1
+  m_TrackPosition: 1
+  m_SmoothPosition: 0
+  m_SmoothPositionAmount: 5
+  m_TightenPosition: 0.5
+  m_TrackRotation: 1
+  m_SmoothRotation: 0
+  m_SmoothRotationAmount: 5
+  m_TightenRotation: 0.5
+  m_ThrowOnDetach: 1
+  m_ThrowSmoothingDuration: 0.25
+  m_ThrowSmoothingCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  m_ThrowVelocityScale: 1.5
+  m_ThrowAngularVelocityScale: 1
+  m_ForceGravityOnDetach: 0
+  m_RetainTransformParent: 1
+  m_AttachPointCompatibilityMode: 0
 --- !u!4 &2872250910114811515
 Transform:
   m_ObjectHideFlags: 0
@@ -90886,9 +91016,10 @@ GameObject:
   m_Component:
   - component: {fileID: 7371364281464249195}
   - component: {fileID: 7370018895128610639}
-  - component: {fileID: 7370018895128610638}
   - component: {fileID: 7370018895128610640}
+  - component: {fileID: 7370018895128610642}
   - component: {fileID: 7370018895128610641}
+  - component: {fileID: 7370018895128610638}
   m_Layer: 7
   m_Name: M1911 Magazine_Steel
   m_TagString: PMag
@@ -90905,10 +91036,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 7370018895128610637}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
+  m_Script: {fileID: 11500000, guid: 4179befe28299714c8897aa93d1f9837, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 723987856}
+  m_InteractionManager: {fileID: 0}
   m_Colliders: []
   m_InteractionLayerMask:
     serializedVersion: 2
@@ -91049,6 +91180,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 7370018895128610637}
   m_Enabled: 1
   m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizeVelocity: 1
+  m_SynchronizeAngularVelocity: 1
+  m_TeleportEnabled: 1
+  m_TeleportIfDistanceGreaterThan: 3
+--- !u!114 &7370018895128610642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7370018895128610637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -91056,10 +91203,11 @@ MonoBehaviour:
   Group: 0
   prefixField: -1
   Synchronization: 3
-  OwnershipTransfer: 0
+  OwnershipTransfer: 1
   observableSearch: 2
-  ObservedComponents: []
-  sceneViewId: 2
+  ObservedComponents:
+  - {fileID: 7370018895128610641}
+  sceneViewId: 1
   InstantiationId: 0
   isRuntimeInstantiated: 0
 --- !u!4 &7371364281464249195
