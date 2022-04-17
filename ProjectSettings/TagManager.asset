@@ -5,19 +5,20 @@ TagManager:
   serializedVersion: 2
   tags:
   - PMag
+  - Bullet
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Map
   - Water
   - UI
   - Grab
   - Grab Interactable
   - Player
-  - 
-  - 
-  - 
+  - whatIsBullet
+  - whatIsPlayer
+  - whatIsEnemy
   - 
   - 
   - 

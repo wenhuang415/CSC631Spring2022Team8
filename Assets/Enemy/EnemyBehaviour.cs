@@ -29,7 +29,7 @@ public class EnemyBehaviour : MonoBehaviour
 
     private void Awake()
     {
-        player = GameObject.Find("PlayerObj").transform;
+        player = GameObject.Find("enemyTemp").transform;
         agent = GetComponent<NavMeshAgent>();
     }
 
@@ -84,9 +84,9 @@ public class EnemyBehaviour : MonoBehaviour
         if (!alreadyAttacked)
         {
             ///Attack code here
-            Rigidbody rb = Instantiate(projectile, transform.position, Quaternion.identity).GetComponent<Rigidbody>();
+            Rigidbody rb = Instantiate(projectile, transform.position + new Vector3(0, 1, 0), Quaternion.identity).GetComponent<Rigidbody>();
             rb.AddForce(transform.forward * 32f, ForceMode.Impulse);
-            rb.AddForce(transform.up * 8f, ForceMode.Impulse);
+            rb.AddForce(transform.up * -1f, ForceMode.Impulse);
             ///End of attack code
 
             alreadyAttacked = true;
