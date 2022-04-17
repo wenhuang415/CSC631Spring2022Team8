@@ -41,14 +41,14 @@ public class GameStateScript : MonoBehaviour
                 SpawnEnemies();
             }
             gameState = 0;//just spawn 1 
-            shopTime = 10;//reset shop time
+            shopTime = 5;//reset shop time
         }
     }
 
     void SpawnEnemies()
     {
 
-        int spawnLocation=Random.Range(0,3);//each int represents a different location
+        int spawnLocation=Random.Range(0,4);//each int represents a different location
         Vector3 vector = new Vector3(0,0,0);
 
         switch(spawnLocation){
