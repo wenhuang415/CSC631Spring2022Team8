@@ -1,0 +1,2953 @@
+fileFormatVersion: 2
+guid: f6863227f0b9042ca9c8a77f55427062
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      43: 4300000
+    second: lt_foot_gib
+  - first:
+      43: 4300002
+    second: lt_upleg_gib
+  - first:
+      43: 4300004
+    second: lt_lowleg_gib
+  - first:
+      43: 4300006
+    second: lt_uparm_gib
+  - first:
+      43: 4300008
+    second: rt_uparm_gib
+  - first:
+      43: 4300010
+    second: lt_elbow_gib
+  - first:
+      43: 4300012
+    second: torso_gib
+  - first:
+      43: 4300014
+    second: rt_elbow_gib
+  - first:
+      43: 4300016
+    second: rt_upleg_gib
+  - first:
+      43: 4300018
+    second: rt_lowleg_gib
+  - first:
+      43: 4300020
+    second: rt_foot_gib
+  - first:
+      43: 4300022
+    second: Hips_gib
+  - first:
+      43: 4300024
+    second: lt_eye
+  - first:
+      43: 4300026
+    second: rt_eye
+  - first:
+      43: 4300028
+    second: Head
+  - first:
+      74: 1827226128182048838
+    second: Take 001
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    fileIdsGeneration: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: gb_zombie_lf_upLeg_jnt
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gb_zombie_rt_upLeg_jnt
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gb_zombie_lf_knee_jnt
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gb_zombie_rt_knee_jnt
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gb_zombie_lf_ankle_jnt
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gb_zombie_rt_ankle_jnt
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gb_face_neck_attach_jnt
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gb_face_head_jnt
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gb_zombie_lf_clavicle_jnt
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gb_zombie_rt_clavicle_jnt
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gb_zombie_lf_upArm_jnt
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gb_zombie_rt_upArm_jnt
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gb_zombie_lf_elbow_jnt
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gb_zombie_rt_elbow_jnt
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gb_zombie_lf_hand_jnt
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gb_zombie_rt_hand_jnt
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gb_zombie_lf_toe_jnt
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gb_zombie_rt_toe_jnt
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gb_face_L_eye_jnt
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gb_face_R_eye_jnt
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gb_face_jaw_jnt
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gb_zombie_lf_thumb_a_jnt
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gb_zombie_lf_thumb_b_jnt
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gb_zombie_lf_thumb_c_jnt
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gb_zombie_lf_index_a_jnt
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gb_zombie_lf_index_b_jnt
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gb_zombie_lf_index_c_jnt
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gb_zombie_lf_middle_a_jnt
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gb_zombie_lf_middle_b_jnt
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gb_zombie_lf_middle_c_jnt
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gb_zombie_lf_ringCup_jnt
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gb_zombie_lf_ring_a_jnt
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gb_zombie_lf_ring_b_jnt
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gb_zombie_lf_pinkyCup_jnt
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gb_zombie_lf_pinky_a_jnt
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gb_zombie_lf_pinky_b_jnt
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gb_zombie_rt_thumb_a_jnt
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gb_zombie_rt_thumb_b_jnt
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gb_zombie_rt_thumb_c_jnt
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gb_zombie_rt_index_a_jnt
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gb_zombie_rt_index_b_jnt
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gb_zombie_rt_index_c_jnt
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gb_zombie_rt_middle_a_jnt
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gb_zombie_rt_middle_b_jnt
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gb_zombie_rt_middle_c_jnt
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gb_zombie_rt_ringCup_jnt
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gb_zombie_rt_ring_a_jnt
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gb_zombie_rt_ring_b_jnt
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gb_zombie_rt_pinkyCup_jnt
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gb_zombie_rt_pinky_a_jnt
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gb_zombie_rt_pinky_b_jnt
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Zombie_Master(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lt_foot_gib
+      parentName: Zombie_Master(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lt_upleg_gib
+      parentName: Zombie_Master(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lt_lowleg_gib
+      parentName: Zombie_Master(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lt_uparm_gib
+      parentName: Zombie_Master(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rt_uparm_gib
+      parentName: Zombie_Master(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lt_elbow_gib
+      parentName: Zombie_Master(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: torso_gib
+      parentName: Zombie_Master(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rt_elbow_gib
+      parentName: Zombie_Master(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rt_upleg_gib
+      parentName: Zombie_Master(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rt_lowleg_gib
+      parentName: Zombie_Master(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hips_gib
+      parentName: Zombie_Master(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lt_eye
+      parentName: Zombie_Master(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rt_eye
+      parentName: Zombie_Master(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Head
+      parentName: Zombie_Master(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_face_build_grp
+      parentName: Zombie_Master(Clone)
+      position: {x: -0, y: 5.113, z: -0.07}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_L_brow_innerLoc
+      parentName: gb_face_face_build_grp
+      position: {x: -0.02304574, y: -3.1022973, z: 0.16807118}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_L_brow_outerLoc
+      parentName: gb_face_face_build_grp
+      position: {x: -0.051535606, y: -3.0988607, z: 0.1570773}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_L_cheekLoc
+      parentName: gb_face_face_build_grp
+      position: {x: -0.053991675, y: -3.1972601, z: 0.15414369}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_L_cheek_boneLoc
+      parentName: gb_face_face_build_grp
+      position: {x: -0.0512833, y: -3.1550457, z: 0.1553786}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_L_eyeLoc
+      parentName: gb_face_face_build_grp
+      position: {x: -0.036782924, y: -3.1235793, z: 0.13250118}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_L_eyelid_lowerLoc
+      parentName: gb_face_face_build_grp
+      position: {x: -0.036782924, y: -3.1235793, z: 0.13250118}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_L_eyelid_upperLoc
+      parentName: gb_face_face_build_grp
+      position: {x: -0.036782924, y: -3.1235793, z: 0.13250118}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_L_mouth_cornerLoc
+      parentName: gb_face_face_build_grp
+      position: {x: -0.028341843, y: -3.2150588, z: 0.16782865}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_L_mouth_lowerEndLoc
+      parentName: gb_face_face_build_grp
+      position: {x: -0.009820078, y: -3.2200546, z: 0.18011852}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_L_mouth_lowerLoc
+      parentName: gb_face_face_build_grp
+      position: {x: -0.009970933, y: -3.2374656, z: 0.17707047}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_L_mouth_upperEndLoc
+      parentName: gb_face_face_build_grp
+      position: {x: -0.01001309, y: -3.2075825, z: 0.18535165}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_L_mouth_upperLoc
+      parentName: gb_face_face_build_grp
+      position: {x: -0.016570494, y: -3.1947374, z: 0.18474787}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_R_brow_innerLoc
+      parentName: gb_face_face_build_grp
+      position: {x: 0.02194452, y: -3.1022973, z: 0.16808787}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_R_brow_outerLoc
+      parentName: gb_face_face_build_grp
+      position: {x: 0.05270189, y: -3.0988607, z: 0.1570773}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_R_cheekLoc
+      parentName: gb_face_face_build_grp
+      position: {x: 0.054493234, y: -3.1972601, z: 0.15414369}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_R_cheek_boneLoc
+      parentName: gb_face_face_build_grp
+      position: {x: 0.050500516, y: -3.1550457, z: 0.1553786}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_R_eyeLoc
+      parentName: gb_face_face_build_grp
+      position: {x: 0.036251303, y: -3.1235814, z: 0.13248469}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_R_eyelid_lowerLoc
+      parentName: gb_face_face_build_grp
+      position: {x: 0.036251303, y: -3.1235814, z: 0.13248469}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_R_eyelid_upperLoc
+      parentName: gb_face_face_build_grp
+      position: {x: 0.036251303, y: -3.1235814, z: 0.13248469}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_R_mouth_cornerLoc
+      parentName: gb_face_face_build_grp
+      position: {x: 0.02900374, y: -3.2150588, z: 0.16782865}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_R_mouth_lowerEndLoc
+      parentName: gb_face_face_build_grp
+      position: {x: 0.011557195, y: -3.2200546, z: 0.18011852}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_R_mouth_lowerLoc
+      parentName: gb_face_face_build_grp
+      position: {x: 0.010472735, y: -3.2374656, z: 0.17707047}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_R_mouth_upperEndLoc
+      parentName: gb_face_face_build_grp
+      position: {x: 0.011557195, y: -3.2075825, z: 0.18535165}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_R_mouth_upperLoc
+      parentName: gb_face_face_build_grp
+      position: {x: 0.015687346, y: -3.1947374, z: 0.18474787}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_headEndLoc
+      parentName: gb_face_face_build_grp
+      position: {x: -0, y: -2.993877, z: 0.07486422}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_headLoc
+      parentName: gb_face_face_build_grp
+      position: {x: -0, y: -3.25934, z: 0.05325856}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_headRootLoc
+      parentName: gb_face_face_build_grp
+      position: {x: -0, y: -3.1562588, z: 0.049564097}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_jawEndLoc
+      parentName: gb_face_face_build_grp
+      position: {x: -0, y: -3.2506409, z: 0.18320417}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_jawLoc
+      parentName: gb_face_face_build_grp
+      position: {x: -0, y: -3.2043266, z: 0.04298145}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_mouth_lowerRootLoc
+      parentName: gb_face_face_build_grp
+      position: {x: -0, y: -3.2351003, z: 0.1343044}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_mouth_upperRootLoc
+      parentName: gb_face_face_build_grp
+      position: {x: -0, y: -3.18165, z: 0.13014826}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_neckLoc
+      parentName: gb_face_face_build_grp
+      position: {x: -0, y: -3.3258436, z: 0.013083725}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_neck_attachLoc
+      parentName: gb_face_face_build_grp
+      position: {x: -0, y: -3.3258436, z: 0.013083725}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_teeth_lowerLoc
+      parentName: gb_face_face_build_grp
+      position: {x: -0, y: -3.2223964, z: 0.13067159}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_teeth_upperLoc
+      parentName: gb_face_face_build_grp
+      position: {x: -0, y: -3.203499, z: 0.14068083}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_tongue1Loc
+      parentName: gb_face_face_build_grp
+      position: {x: -0, y: -3.2164235, z: 0.08749026}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_tongue2Loc
+      parentName: gb_face_face_build_grp
+      position: {x: -0, y: -3.2229366, z: 0.14068858}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_tongueEndLoc
+      parentName: gb_face_face_build_grp
+      position: {x: -0, y: -3.2285879, z: 0.16319232}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_face_rig_grp
+      parentName: Zombie_Master(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_master_eye_grp
+      parentName: Zombie_Master(Clone)
+      position: {x: -6.4430683e-16, y: 1.9901646, z: 0.33306164}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_master_eye_ctl
+      parentName: gb_face_master_eye_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_L_eye_ctl
+      parentName: gb_face_master_eye_ctl
+      position: {x: -0.0352671, y: 4.440892e-16, z: 0.00035267102}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_R_eye_ctl
+      parentName: gb_face_master_eye_ctl
+      position: {x: 0.0352671, y: 4.440892e-16, z: 0.00035267102}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_Skeleton_grp
+      parentName: Zombie_Master(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_spine_low_jnt
+      parentName: gb_zombie_Skeleton_grp
+      position: {x: -0, y: 1.2023137, z: -0.001781355}
+      rotation: {x: 0.4885541, y: -0.51118976, z: -0.4885541, w: 0.51118976}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_spine_mid_jnt
+      parentName: gb_zombie_spine_low_jnt
+      position: {x: -0.20090589, y: -2.6367797e-16, z: -1.1342993e-16}
+      rotation: {x: 0.9999742, y: 0.0071905404, z: 4.1572075e-16, w: 5.824459e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_spine_hi_jnt
+      parentName: gb_zombie_spine_mid_jnt
+      position: {x: -0.15219894, y: -1.3877788e-16, z: 1.0963822e-16}
+      rotation: {x: 1.0678682e-17, y: -2.263097e-16, z: 0.029823774, w: 0.9995552}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_spine_end_jnt
+      parentName: gb_zombie_spine_hi_jnt
+      position: {x: -0.09018028, y: -3.469447e-17, z: 3.5042077e-17}
+      rotation: {x: -0.000000030469284, y: -0.000000029120093, z: -0.11946744, w: 0.99283814}
+      scale: {x: 1.0000002, y: 1.0000006, z: 1.0000006}
+    - name: gb_zombie_neck_jnt
+      parentName: gb_zombie_spine_end_jnt
+      position: {x: -0.14820218, y: -1.110223e-16, z: 5.594426e-17}
+      rotation: {x: -0.6662791, y: 0.2367958, z: -0.6662791, w: -0.23679577}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_neck_attach_jnt
+      parentName: gb_zombie_neck_jnt
+      position: {x: -3.0738317e-16, y: -0.0026377037, z: -0.00027329373}
+      rotation: {x: -0.34050146, y: 0.000000037252885, z: -0.000000029802308, w: 0.94024396}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: gb_face_neck_jnt
+      parentName: gb_face_neck_attach_jnt
+      position: {x: -0, y: 2.220446e-16, z: 0}
+      rotation: {x: -0.34746417, y: 0.61584795, z: -0.34746417, w: 0.61584806}
+      scale: {x: 0.9999997, y: 0.9999998, z: 0.99999994}
+    - name: gb_face_head_jnt
+      parentName: gb_face_neck_jnt
+      position: {x: -0.07769635, y: 1.110223e-16, z: -6.777466e-16}
+      rotation: {x: 0.34746405, y: -0.61584795, z: 0.34746405, w: 0.615848}
+      scale: {x: 1.0000001, y: 0.9999998, z: 1.0000006}
+    - name: gb_face_head_end
+      parentName: gb_face_head_jnt
+      position: {x: 3.469447e-18, y: 0.26546326, z: 0.021605661}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_head_root
+      parentName: gb_face_head_jnt
+      position: {x: -0, y: 0.103081256, z: -0.0036944642}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_mouth_upper_root
+      parentName: gb_face_head_root
+      position: {x: -0, y: -0.02539102, z: 0.08058416}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_L_mouth_upper_jnt
+      parentName: gb_face_mouth_upper_root
+      position: {x: -0.016570494, y: -0.013087504, z: 0.054599613}
+      rotation: {x: -0, y: -0, z: -2.3900403e-33, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_L_mouth_upper_end
+      parentName: gb_face_L_mouth_upper_jnt
+      position: {x: 0.0065574027, y: -0.012845156, z: 0.00060378946}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_R_mouth_upper_jnt
+      parentName: gb_face_mouth_upper_root
+      position: {x: 0.015687346, y: -0.013087504, z: 0.054599613}
+      rotation: {x: -0, y: -0, z: -2.3900403e-33, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_R_mouth_upper_end
+      parentName: gb_face_R_mouth_upper_jnt
+      position: {x: -0.00413015, y: -0.012845156, z: 0.00060378946}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_L_eye_jnt
+      parentName: gb_face_head_root
+      position: {x: -0.036782924, y: 0.032679554, z: 0.08293709}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_R_eye_jnt
+      parentName: gb_face_head_root
+      position: {x: 0.036251303, y: 0.032677583, z: 0.08292059}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_L_brow_inner_jnt
+      parentName: gb_face_head_root
+      position: {x: -0.02304574, y: 0.05396159, z: 0.11850708}
+      rotation: {x: -0, y: -0, z: -2.3900403e-33, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_L_brow_outer_jnt
+      parentName: gb_face_head_root
+      position: {x: -0.051535606, y: 0.057398237, z: 0.1075132}
+      rotation: {x: -0, y: -0, z: -2.3900403e-33, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_L_cheek_bone_jnt
+      parentName: gb_face_head_root
+      position: {x: -0.0512833, y: 0.0012132543, z: 0.105814494}
+      rotation: {x: -0, y: -0, z: -2.3900403e-33, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_L_cheek_jnt
+      parentName: gb_face_head_root
+      position: {x: -0.053991675, y: -0.041001335, z: 0.10457959}
+      rotation: {x: -0, y: -0, z: -2.3900403e-33, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_L_eyelid_lower_jnt
+      parentName: gb_face_head_root
+      position: {x: -0.036782924, y: 0.032679554, z: 0.08293709}
+      rotation: {x: -0, y: -0, z: -2.3900403e-33, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_L_eyelid_upper_jnt
+      parentName: gb_face_head_root
+      position: {x: -0.036782924, y: 0.032679554, z: 0.08293709}
+      rotation: {x: -0, y: -0, z: -2.3900403e-33, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_L_mouth_corner_jnt
+      parentName: gb_face_head_root
+      position: {x: -0.027862608, y: -0.06512892, z: 0.120014496}
+      rotation: {x: -0, y: -0, z: -2.3900403e-33, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_R_brow_inner_jnt
+      parentName: gb_face_head_root
+      position: {x: 0.02194452, y: 0.05396159, z: 0.11852378}
+      rotation: {x: -0, y: -0, z: -2.3900403e-33, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_R_brow_outer_jnt
+      parentName: gb_face_head_root
+      position: {x: 0.05270189, y: 0.057398237, z: 0.1075132}
+      rotation: {x: -0, y: -0, z: -2.3900403e-33, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_R_cheek_bone_jnt
+      parentName: gb_face_head_root
+      position: {x: 0.050500516, y: 0.0012132543, z: 0.105814494}
+      rotation: {x: -0, y: -0, z: -2.3900403e-33, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_R_cheek_jnt
+      parentName: gb_face_head_root
+      position: {x: 0.054493234, y: -0.041001335, z: 0.10457959}
+      rotation: {x: -0, y: -0, z: -2.3900403e-33, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_R_eyelid_lower_jnt
+      parentName: gb_face_head_root
+      position: {x: 0.036251303, y: 0.032677583, z: 0.08292059}
+      rotation: {x: -0, y: -0, z: -2.3900403e-33, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_R_eyelid_upper_jnt
+      parentName: gb_face_head_root
+      position: {x: 0.036251303, y: 0.032677583, z: 0.08292059}
+      rotation: {x: -0, y: -0, z: -2.3900403e-33, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_R_mouth_corner_jnt
+      parentName: gb_face_head_root
+      position: {x: 0.029482974, y: -0.06512892, z: 0.120014496}
+      rotation: {x: -0, y: -0, z: -2.3900403e-33, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_jaw_jnt
+      parentName: gb_face_head_jnt
+      position: {x: -2.097975e-17, y: 0.055013597, z: -0.010277109}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: gb_face_jaw_end
+      parentName: gb_face_jaw_jnt
+      position: {x: -0, y: -0.046314318, z: 0.14022271}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_mouth_lower_root
+      parentName: gb_face_jaw_jnt
+      position: {x: -0, y: -0.03077372, z: 0.09132295}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_L_mouth_lower_jnt
+      parentName: gb_face_mouth_lower_root
+      position: {x: -0.009970933, y: -0.002365413, z: 0.04276607}
+      rotation: {x: -0, y: -0, z: -2.3900403e-33, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_L_mouth_lower_end
+      parentName: gb_face_L_mouth_lower_jnt
+      position: {x: 0.00015085618, y: 0.017411087, z: 0.0030480393}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_R_mouth_lower_jnt
+      parentName: gb_face_mouth_lower_root
+      position: {x: 0.010472735, y: -0.002365413, z: 0.04276607}
+      rotation: {x: -0, y: -0, z: -2.3900403e-33, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_R_mouth_lower_end
+      parentName: gb_face_R_mouth_lower_jnt
+      position: {x: 0.0010844602, y: 0.017411087, z: 0.0030480393}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_teeth_lower_jnt
+      parentName: gb_face_jaw_jnt
+      position: {x: -0, y: -0.018069867, z: 0.087690145}
+      rotation: {x: 0.000000089406925, y: 0.000000029802308, z: -0.000000029802308, w: 1}
+      scale: {x: 1, y: 1.0000004, z: 0.99999994}
+    - name: gb_face_tongue1_jnt
+      parentName: gb_face_jaw_jnt
+      position: {x: -0, y: -0.012097053, z: 0.04450881}
+      rotation: {x: 0.000000089406925, y: 0.000000029802308, z: -0.000000029802308, w: 1}
+      scale: {x: 0.8000001, y: 1.0000004, z: 0.99999994}
+    - name: gb_face_tongue2_jnt
+      parentName: gb_face_tongue1_jnt
+      position: {x: -0, y: -0.0065131225, z: 0.053198326}
+      rotation: {x: -0, y: -0, z: -8.881767e-16, w: 1}
+      scale: {x: 0.7999999, y: 0.99999994, z: 0.99999994}
+    - name: gb_face_tongue_end
+      parentName: gb_face_tongue2_jnt
+      position: {x: -0, y: -0.0056510544, z: 0.022503728}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_teeth_upper_jnt
+      parentName: gb_face_head_jnt
+      position: {x: -0, y: 0.055841092, z: 0.08742227}
+      rotation: {x: 0.000000089406925, y: 0.000000029802308, z: -0.000000029802308, w: 1}
+      scale: {x: 1, y: 1.0000004, z: 0.9999998}
+    - name: gb_zombie_lf_clavicle_jnt
+      parentName: gb_zombie_spine_end_jnt
+      position: {x: -0.08306382, y: -0.020283708, z: -0.096764654}
+      rotation: {x: -0.54927987, y: 0.53761894, z: -0.5431622, w: -0.3379828}
+      scale: {x: 0.99999994, y: 1.0000005, z: 0.99999994}
+    - name: gb_zombie_lf_upArm_jnt
+      parentName: gb_zombie_lf_clavicle_jnt
+      position: {x: -0.13035667, y: 4.440892e-16, z: -8.6736174e-19}
+      rotation: {x: 0.010371697, y: 0.094752856, z: -0.108313926, w: 0.98953646}
+      scale: {x: 0.99999994, y: 0.9999998, z: 0.9999998}
+    - name: gb_zombie_lf_elbow_jnt
+      parentName: gb_zombie_lf_upArm_jnt
+      position: {x: -0.3053753, y: -2.220446e-16, z: 1.3877788e-17}
+      rotation: {x: -0.000000050291412, y: 0.009369872, z: -0.0000000032596286, w: 0.99995613}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000004}
+    - name: gb_zombie_lf_wrist_jnt
+      parentName: gb_zombie_lf_elbow_jnt
+      position: {x: -0.2942355, y: -2.220446e-16, z: 9.922618e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_hand_jnt
+      parentName: gb_zombie_lf_wrist_jnt
+      position: {x: -1.110223e-16, y: 0, z: -1.3877788e-17}
+      rotation: {x: -0.000000019372566, y: 0.00000046193588, z: -0.00000001985655, w: 1}
+      scale: {x: 0.9999997, y: 1.0000001, z: 1}
+    - name: gb_zombie_lf_thumb_a_jnt
+      parentName: gb_zombie_lf_hand_jnt
+      position: {x: -0.036505356, y: -0.014308169, z: 0.055542678}
+      rotation: {x: -0.6961424, y: 0.19954656, z: 0.3242929, w: 0.6086059}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: gb_zombie_lf_thumb_b_jnt
+      parentName: gb_zombie_lf_thumb_a_jnt
+      position: {x: -0.038357444, y: 5.551115e-17, z: 0}
+      rotation: {x: -0.015431333, y: -0.0072662556, z: -0.037280757, w: 0.9991593}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000005}
+    - name: gb_zombie_lf_thumb_c_jnt
+      parentName: gb_zombie_lf_thumb_b_jnt
+      position: {x: -0.043013643, y: -3.0531133e-16, z: -2.220446e-16}
+      rotation: {x: 0.04108753, y: 0.036728922, z: -0.014227181, w: 0.9983789}
+      scale: {x: 0.99999994, y: 0.9999998, z: 1}
+    - name: gb_zombie_lf_thumb_d_jnt
+      parentName: gb_zombie_lf_thumb_c_jnt
+      position: {x: -0.04089901, y: -2.7755576e-17, z: 4.440892e-16}
+      rotation: {x: 0.6982536, y: -0.1115437, z: -0.20221895, w: 0.67757475}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_index_a_jnt
+      parentName: gb_zombie_lf_hand_jnt
+      position: {x: -0.12678602, y: -0.0007222071, z: 0.04096933}
+      rotation: {x: -0.70625037, y: 0.030130332, z: 0.014409545, w: 0.70717394}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000004}
+    - name: gb_zombie_lf_index_b_jnt
+      parentName: gb_zombie_lf_index_a_jnt
+      position: {x: -0.04520299, y: 0, z: -2.220446e-16}
+      rotation: {x: -0.0072460743, y: -0.039602183, z: -0.00020800512, w: 0.9991892}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: gb_zombie_lf_index_c_jnt
+      parentName: gb_zombie_lf_index_b_jnt
+      position: {x: -0.040014703, y: -1.3877788e-16, z: 2.220446e-16}
+      rotation: {x: -0.00458125, y: -0.041031875, z: -0.0007010563, w: 0.9991472}
+      scale: {x: 1.0000002, y: 1, z: 0.99999994}
+    - name: gb_zombie_lf_index_d_jnt
+      parentName: gb_zombie_lf_index_c_jnt
+      position: {x: -0.036350794, y: -5.551115e-17, z: 0}
+      rotation: {x: 0.7049746, y: 0.054870754, z: -0.11631155, w: 0.69747525}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_middle_a_jnt
+      parentName: gb_zombie_lf_hand_jnt
+      position: {x: -0.12788044, y: 0.002746355, z: 0.010707886}
+      rotation: {x: -0.7069814, y: -0.005898738, z: -0.0133140525, w: 0.70708215}
+      scale: {x: 1.0000001, y: 1.0000005, z: 1.0000006}
+    - name: gb_zombie_lf_middle_b_jnt
+      parentName: gb_zombie_lf_middle_a_jnt
+      position: {x: -0.049667597, y: 6.938894e-18, z: 2.220446e-16}
+      rotation: {x: 0.000000029802308, y: -0.03982268, z: -0.00000039674322, w: 0.9992067}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000002}
+    - name: gb_zombie_lf_middle_c_jnt
+      parentName: gb_zombie_lf_middle_b_jnt
+      position: {x: -0.043489553, y: -6.938894e-18, z: 0}
+      rotation: {x: -0.000000028658015, y: -0.04018648, z: 0.00000037670873, w: 0.9991922}
+      scale: {x: 0.9999997, y: 1, z: 1}
+    - name: gb_zombie_lf_middle_d_jnt
+      parentName: gb_zombie_lf_middle_c_jnt
+      position: {x: -0.039514896, y: 0, z: 0}
+      rotation: {x: 0.700237, y: 0.09832698, z: -0.09832698, w: 0.700237}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_ringCup_jnt
+      parentName: gb_zombie_lf_hand_jnt
+      position: {x: -0.046756055, y: 0.0069147134, z: -0.012376182}
+      rotation: {x: -0.706183, y: -0.04018311, z: -0.006579115, w: 0.7068576}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: gb_zombie_lf_ring_a_jnt
+      parentName: gb_zombie_lf_ringCup_jnt
+      position: {x: -0.07791489, y: -4.8572257e-17, z: -2.220446e-16}
+      rotation: {x: -0.0010110434, y: 0.02784521, z: 0.030597487, w: 0.99914336}
+      scale: {x: 0.99999994, y: 1.0000006, z: 1.0000006}
+    - name: gb_zombie_lf_ring_b_jnt
+      parentName: gb_zombie_lf_ring_a_jnt
+      position: {x: -0.047227155, y: 6.938894e-18, z: 2.220446e-16}
+      rotation: {x: 0.000000024912861, y: -0.04025141, z: 0.00000030058868, w: 0.99918956}
+      scale: {x: 1, y: 1.0000002, z: 1.0000006}
+    - name: gb_zombie_lf_ring_c_jnt
+      parentName: gb_zombie_lf_ring_b_jnt
+      position: {x: -0.038385995, y: 0, z: 4.440892e-16}
+      rotation: {x: -0.00000014335434, y: -0.08246463, z: 0.00000004083387, w: 0.996594}
+      scale: {x: 0.9999998, y: 1.0000004, z: 1}
+    - name: gb_zombie_lf_ring_d_jnt
+      parentName: gb_zombie_lf_ring_c_jnt
+      position: {x: -0.03694964, y: 1.3877788e-17, z: 2.220446e-16}
+      rotation: {x: 0.69918436, y: 0.10555243, z: -0.10555243, w: 0.69918436}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_pinkyCup_jnt
+      parentName: gb_zombie_lf_hand_jnt
+      position: {x: -0.05278202, y: -0.0008011371, z: -0.044678483}
+      rotation: {x: -0.7071788, y: -0.004038768, z: 0.0021067217, w: 0.7070201}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: gb_zombie_lf_pinky_a_jnt
+      parentName: gb_zombie_lf_pinkyCup_jnt
+      position: {x: -0.06748944, y: -1.2490009e-16, z: 2.220446e-16}
+      rotation: {x: -0.0001453161, y: 0.00071035675, z: -0.03852453, w: 0.9992574}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000002}
+    - name: gb_zombie_lf_pinky_b_jnt
+      parentName: gb_zombie_lf_pinky_a_jnt
+      position: {x: -0.03715205, y: 1.3877788e-17, z: -4.440892e-16}
+      rotation: {x: 0.011942744, y: -0.040304348, z: 0.00051675615, w: 0.999116}
+      scale: {x: 1, y: 1.0000002, z: 1.0000001}
+    - name: gb_zombie_lf_pinky_c_jnt
+      parentName: gb_zombie_lf_pinky_b_jnt
+      position: {x: -0.031810503, y: -1.3877788e-16, z: 0}
+      rotation: {x: 0.01903766, y: -0.109402925, z: 0.004810174, w: 0.9938035}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1.0000002}
+    - name: gb_zombie_lf_pinky_d_jnt
+      parentName: gb_zombie_lf_pinky_c_jnt
+      position: {x: -0.026592128, y: -1.2836954e-16, z: 2.220446e-16}
+      rotation: {x: 0.6824443, y: 0.18512124, z: -0.068790294, w: 0.70375276}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_clavicle_jnt
+      parentName: gb_zombie_spine_end_jnt
+      position: {x: -0.08306705, y: -0.020284453, z: 0.0967647}
+      rotation: {x: -0.537619, y: -0.5492798, z: -0.33798268, w: 0.5431622}
+      scale: {x: 0.99999994, y: 1.0000004, z: 1.0000002}
+    - name: gb_zombie_rt_upArm_jnt
+      parentName: gb_zombie_rt_clavicle_jnt
+      position: {x: 0.13035657, y: 0.00000039540552, z: -0.000000045334414}
+      rotation: {x: 0.010371654, y: 0.09475298, z: -0.10831405, w: 0.98953646}
+      scale: {x: 0.9999998, y: 1.0000002, z: 1.0000005}
+    - name: gb_zombie_rt_elbow_jnt
+      parentName: gb_zombie_rt_upArm_jnt
+      position: {x: 0.30537584, y: -2.220446e-16, z: 0.00000007391146}
+      rotation: {x: -0.000000042840835, y: 0.0093626, z: -0, w: 0.9999562}
+      scale: {x: 1, y: 1.0000013, z: 1.0000011}
+    - name: gb_zombie_rt_wrist_jnt
+      parentName: gb_zombie_rt_elbow_jnt
+      position: {x: 0.2942346, y: -8.881784e-16, z: -0.000000038189484}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_hand_jnt
+      parentName: gb_zombie_rt_wrist_jnt
+      position: {x: 1.110223e-16, y: 0, z: 0}
+      rotation: {x: 0.00000003312784, y: 0.000007748603, z: -0.000000056619072, w: 1}
+      scale: {x: 0.99999994, y: 0.9999998, z: 0.9999997}
+    - name: gb_zombie_rt_thumb_a_jnt
+      parentName: gb_zombie_rt_hand_jnt
+      position: {x: 0.036505517, y: 0.01431, z: -0.055542685}
+      rotation: {x: -0.6961515, y: 0.1995823, z: 0.3242819, w: 0.6085896}
+      scale: {x: 0.99999994, y: 1.0000001, z: 0.9999998}
+    - name: gb_zombie_rt_thumb_b_jnt
+      parentName: gb_zombie_rt_thumb_a_jnt
+      position: {x: 0.03835832, y: -0.000000762257, z: 0.000005094686}
+      rotation: {x: -0.015436344, y: -0.0073068705, z: -0.037287932, w: 0.9991586}
+      scale: {x: 1.0000006, y: 0.99999994, z: 1.0000005}
+    - name: gb_zombie_rt_thumb_c_jnt
+      parentName: gb_zombie_rt_thumb_b_jnt
+      position: {x: 0.04301461, y: -0.00000057449176, z: 0.00000041606953}
+      rotation: {x: 0.04108919, y: 0.036645174, z: -0.014223146, w: 0.998382}
+      scale: {x: 1.0000002, y: 0.9999998, z: 0.99999994}
+    - name: gb_zombie_rt_thumb_d_jnt
+      parentName: gb_zombie_rt_thumb_c_jnt
+      position: {x: 0.04089787, y: 0.00000053331837, z: -0.0000068284694}
+      rotation: {x: 0.6982536, y: -0.1115437, z: -0.20221895, w: 0.67757475}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_index_a_jnt
+      parentName: gb_zombie_rt_hand_jnt
+      position: {x: 0.1267869, y: 0.00073, z: -0.04096935}
+      rotation: {x: -0.70625037, y: 0.030130258, z: 0.014409555, w: 0.70717394}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: gb_zombie_rt_index_b_jnt
+      parentName: gb_zombie_rt_index_a_jnt
+      position: {x: 0.045202993, y: 0.00000002108324, z: -0.000007439049}
+      rotation: {x: -0.0072458056, y: -0.039514896, z: -0.00020535513, w: 0.9991927}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000001}
+    - name: gb_zombie_rt_index_c_jnt
+      parentName: gb_zombie_rt_index_b_jnt
+      position: {x: 0.040018015, y: -0.00000035905563, z: -0.00000005556872}
+      rotation: {x: -0.004581306, y: -0.041005414, z: -0.00070334476, w: 0.9991482}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: gb_zombie_rt_index_d_jnt
+      parentName: gb_zombie_rt_index_c_jnt
+      position: {x: 0.03634266, y: 0.0000006856166, z: 0.000001865606}
+      rotation: {x: 0.7049746, y: 0.054870754, z: -0.11631155, w: 0.69747525}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_middle_a_jnt
+      parentName: gb_zombie_rt_hand_jnt
+      position: {x: 0.12788112, y: -0.00274, z: -0.01070785}
+      rotation: {x: -0.70698136, y: -0.0058988184, z: -0.013314026, w: 0.7070823}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
+    - name: gb_zombie_rt_middle_b_jnt
+      parentName: gb_zombie_rt_middle_a_jnt
+      position: {x: 0.049667723, y: -2.0816682e-17, z: 0.0000009027696}
+      rotation: {x: -0.000000059604616, y: -0.039928537, z: 0.00000021234145, w: 0.99920255}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000002}
+    - name: gb_zombie_rt_middle_c_jnt
+      parentName: gb_zombie_rt_middle_b_jnt
+      position: {x: 0.04348424, y: -2.4286129e-17, z: -0.00000814845}
+      rotation: {x: 0.0000001085561, y: -0.04000651, z: -0.000000055021676, w: 0.9991994}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: gb_zombie_rt_middle_d_jnt
+      parentName: gb_zombie_rt_middle_c_jnt
+      position: {x: 0.03952002, y: -1.7347235e-17, z: 0.0000060744214}
+      rotation: {x: 0.700237, y: 0.09832698, z: -0.09832698, w: 0.700237}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_ringCup_jnt
+      parentName: gb_zombie_rt_hand_jnt
+      position: {x: 0.046757013, y: -0.00691, z: 0.01237621}
+      rotation: {x: -0.70618236, y: -0.04019977, z: -0.0065795435, w: 0.7068572}
+      scale: {x: 1.0000001, y: 1, z: 0.99999994}
+    - name: gb_zombie_rt_ring_a_jnt
+      parentName: gb_zombie_rt_ringCup_jnt
+      position: {x: 0.07791409, y: -0.000000060835426, z: -0.0000018534043}
+      rotation: {x: -0.0010112522, y: 0.027849227, z: 0.030600954, w: 0.9991431}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: gb_zombie_rt_ring_b_jnt
+      parentName: gb_zombie_rt_ring_a_jnt
+      position: {x: 0.047227003, y: 3.469447e-17, z: -0.00000034289707}
+      rotation: {x: -0.000000015483234, y: -0.040229026, z: 0.0000010418405, w: 0.9991905}
+      scale: {x: 0.99999994, y: 1.0000002, z: 1}
+    - name: gb_zombie_rt_ring_c_jnt
+      parentName: gb_zombie_rt_ring_b_jnt
+      position: {x: 0.038382076, y: 2.0816682e-17, z: 0.0000012485793}
+      rotation: {x: -0.000000059412223, y: -0.08246463, z: 0.0000000015216469, w: 0.996594}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: gb_zombie_rt_ring_d_jnt
+      parentName: gb_zombie_rt_ring_c_jnt
+      position: {x: 0.03695706, y: -1.3877788e-17, z: 0.00000019690108}
+      rotation: {x: 0.69918436, y: 0.10555243, z: -0.10555243, w: 0.69918436}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_pinkyCup_jnt
+      parentName: gb_zombie_rt_hand_jnt
+      position: {x: 0.052782614, y: 0.0008, z: 0.044678442}
+      rotation: {x: -0.70717883, y: -0.004038803, z: 0.0021067015, w: 0.70702}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: gb_zombie_rt_pinky_a_jnt
+      parentName: gb_zombie_rt_pinkyCup_jnt
+      position: {x: 0.067489736, y: -0.00000007839626, z: 0.0000034461518}
+      rotation: {x: -0.00014600155, y: 0.0006881296, z: -0.038525693, w: 0.99925745}
+      scale: {x: 1, y: 0.99999994, z: 1.0000001}
+    - name: gb_zombie_rt_pinky_b_jnt
+      parentName: gb_zombie_rt_pinky_a_jnt
+      position: {x: 0.037151955, y: 0.000000023226834, z: -0.00000080554145}
+      rotation: {x: 0.011943017, y: -0.040325478, z: 0.0005213753, w: 0.99911517}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000001}
+    - name: gb_zombie_rt_pinky_c_jnt
+      parentName: gb_zombie_rt_pinky_b_jnt
+      position: {x: 0.03180783, y: -0.0000005097858, z: -0.000002090056}
+      rotation: {x: 0.019037673, y: -0.10940298, z: 0.0048101805, w: 0.9938035}
+      scale: {x: 1, y: 0.99999994, z: 1.0000001}
+    - name: gb_zombie_rt_pinky_d_jnt
+      parentName: gb_zombie_rt_pinky_c_jnt
+      position: {x: 0.026596297, y: 0.0000007639797, z: 0.0000050776134}
+      rotation: {x: 0.6824443, y: 0.18512124, z: -0.068790294, w: 0.70375276}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_hip_jnt
+      parentName: gb_zombie_spine_low_jnt
+      position: {x: 0.081188, y: -0.003291875, z: -3.6547153e-19}
+      rotation: {x: -0, y: -0, z: -0.020260632, w: 0.9997947}
+      scale: {x: 0.9999998, y: 0.9999998, z: 1.0000001}
+    - name: gb_zombie_lf_upLeg_jnt
+      parentName: gb_zombie_hip_jnt
+      position: {x: 0.09998591, y: -0.0017821011, z: 0.11083109}
+      rotation: {x: 0.0000000148981005, y: 3.0190692e-10, z: -0.9999996, w: -0.00089017476}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+    - name: gb_zombie_lf_knee_jnt
+      parentName: gb_zombie_lf_upLeg_jnt
+      position: {x: -0.46680853, y: 3.951158e-14, z: 1.3877788e-17}
+      rotation: {x: -7.624855e-10, y: 0.000000014881639, z: 0.030035187, w: -0.99954885}
+      scale: {x: 1.0000007, y: 1.0000006, z: 1.0000001}
+    - name: gb_zombie_lf_ankle_jnt
+      parentName: gb_zombie_lf_knee_jnt
+      position: {x: -0.46311694, y: -6.938894e-18, z: -2.9143354e-16}
+      rotation: {x: 5.551115e-17, y: -8.881784e-16, z: 0.537771, w: 0.84309095}
+      scale: {x: 1.0000004, y: 1.0000008, z: 1.0000004}
+    - name: gb_zombie_lf_ball_jnt
+      parentName: gb_zombie_lf_ankle_jnt
+      position: {x: -0.16289732, y: 0, z: -5.551115e-17}
+      rotation: {x: -0.0000000102730855, y: 0.00000004225295, z: 0.2305373, w: 0.9730635}
+      scale: {x: 1.0000007, y: 1.0000015, z: 1.0000005}
+    - name: gb_zombie_lf_toe_jnt
+      parentName: gb_zombie_lf_ball_jnt
+      position: {x: -0.13123545, y: -6.938894e-18, z: -5.551115e-17}
+      rotation: {x: 0.70704204, y: 0.009567953, z: -0.7070421, w: 0.0095679825}
+      scale: {x: 1.0000002, y: 0.9999998, z: 0.99999994}
+    - name: gb_zombie_rt_upLeg_jnt
+      parentName: gb_zombie_hip_jnt
+      position: {x: 0.09998252, y: -0.0017820817, z: -0.110831}
+      rotation: {x: -0, y: -0, z: -0.00089016184, w: 0.99999964}
+      scale: {x: 1.0000013, y: 1.0000014, z: 1.0000006}
+    - name: gb_zombie_rt_knee_jnt
+      parentName: gb_zombie_rt_upLeg_jnt
+      position: {x: 0.46681207, y: -0.000000016316989, z: 1.3877788e-17}
+      rotation: {x: -0.000000029165315, y: -0.000000030425987, z: -0.03003575, w: 0.9995489}
+      scale: {x: 1.000002, y: 1.0000021, z: 1.0000017}
+    - name: gb_zombie_rt_ankle_jnt
+      parentName: gb_zombie_rt_knee_jnt
+      position: {x: 0.46311682, y: -0.0000000078776, z: -1.3877788e-17}
+      rotation: {x: 0.00000004063337, y: 0.000000011193098, z: 0.53777146, w: 0.8430907}
+      scale: {x: 1.0000005, y: 1.0000001, z: 1.0000006}
+    - name: gb_zombie_rt_ball_jnt
+      parentName: gb_zombie_rt_ankle_jnt
+      position: {x: 0.16289686, y: -0.00000018694243, z: 4.1633363e-17}
+      rotation: {x: 0.000000011193099, y: -0.000000040633374, z: 0.23053741, w: 0.97306347}
+      scale: {x: 1, y: 0.9999998, z: 1}
+    - name: gb_zombie_rt_toe_jnt
+      parentName: gb_zombie_rt_ball_jnt
+      position: {x: 0.13123606, y: 0.00000002126165, z: 0}
+      rotation: {x: 0.7070421, y: 0.009567953, z: -0.7070421, w: 0.009568027}
+      scale: {x: 0.99999994, y: 0.9999997, z: 0.9999998}
+    - name: weightSpine_grp
+      parentName: gb_zombie_Skeleton_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_weightSpine_b_jnt
+      parentName: weightSpine_grp
+      position: {x: 1.8059446e-17, y: 1.2958199, z: -0.006182183}
+      rotation: {x: 0.5123202, y: -0.48736843, z: 0.5123202, w: -0.48736843}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_weightSpine_c_jnt
+      parentName: weightSpine_grp
+      position: {x: 1.5320235e-16, y: 1.4704455, z: -0.014904767}
+      rotation: {x: 0.5071625, y: -0.49273348, z: 0.50716245, w: -0.49273348}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rig_grp
+      parentName: Zombie_Master(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_root_ctrl
+      parentName: gb_zombie_rig_grp
+      position: {x: -0, y: 0, z: -0.001781355}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_spine_rig_grp
+      parentName: gb_zombie_rig_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_spineNoScale_rig_grp
+      parentName: gb_zombie_spine_rig_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_ikSpline_crv
+      parentName: gb_zombie_spineNoScale_rig_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_spine_ikHandle
+      parentName: gb_zombie_spineNoScale_rig_grp
+      position: {x: 2.8080355e-16, y: 1.6451701, z: -0.019948555}
+      rotation: {x: 0.50716245, y: -0.49273345, z: 0.50716245, w: -0.49273345}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_spine0_clstrHandle
+      parentName: gb_zombie_spineNoScale_rig_grp
+      position: {x: -1.1741919e-33, y: 1.1210599, z: -0.00139531}
+      rotation: {x: -1.3877789e-16, y: 2.7755576e-17, z: -2.7755576e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_spine1_clstrHandle
+      parentName: gb_zombie_spineNoScale_rig_grp
+      position: {x: -1.076e-42, y: 1.2023137, z: -0.001781355}
+      rotation: {x: 8.326673e-17, y: 2.7755576e-17, z: -2.7755576e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_spine2_clstrHandle
+      parentName: gb_zombie_spineNoScale_rig_grp
+      position: {x: 1.1342993e-16, y: 1.4030137, z: -0.0108743}
+      rotation: {x: -1.3877789e-16, y: 1.3877789e-16, z: -2.7755576e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_spine3_clstrHandle
+      parentName: gb_zombie_spineNoScale_rig_grp
+      position: {x: 1.6812754e-16, y: 1.4789778, z: -0.015411427}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_spine4_clstrHandle
+      parentName: gb_zombie_spineNoScale_rig_grp
+      position: {x: 2.2282515e-16, y: 1.5549419, z: -0.019948555}
+      rotation: {x: -5.551115e-17, y: 5.551115e-17, z: -5.551115e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_spine5_clstrHandle
+      parentName: gb_zombie_spineNoScale_rig_grp
+      position: {x: 2.5897881e-16, y: 1.6451222, z: -0.019948555}
+      rotation: {x: -5.551115e-17, y: 5.551115e-17, z: -5.551115e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_spineRig_a_jnt
+      parentName: gb_zombie_spine_rig_grp
+      position: {x: -1.1741919e-33, y: 1.1210599, z: -0.00139531}
+      rotation: {x: 0.506799, y: -0.4931073, z: 0.506799, w: -0.4931073}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_spineRig_b_jnt
+      parentName: gb_zombie_spineRig_a_jnt
+      position: {x: -0.17482561, y: 1.7347235e-17, z: 1.8059446e-17}
+      rotation: {x: -0.000000007450108, y: 8.390871e-11, z: -0.011261996, w: 0.9999366}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_spineRig_c_jnt
+      parentName: gb_zombie_spineRig_b_jnt
+      position: {x: -0.17484328, y: -1.5959456e-16, z: 1.3470571e-16}
+      rotation: {x: -0.000000007450168, y: -7.841444e-11, z: 0.010524645, w: 0.9999446}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_spineRig_d_jnt
+      parentName: gb_zombie_spineRig_c_jnt
+      position: {x: -0.1747974, y: -4.059253e-16, z: 1.2757256e-16}
+      rotation: {x: 0.5070286, y: -0.49287122, z: 0.5070286, w: 0.49287122}
+      scale: {x: 1, y: 1, z: 1}
+    - name: refSpine_a
+      parentName: gb_zombie_spine_rig_grp
+      position: {x: -4.814825e-35, y: 1.1210599, z: -0.00139531}
+      rotation: {x: 0.50651276, y: -0.4934013, z: 0.50651276, w: -0.4934013}
+      scale: {x: 1, y: 1, z: 1}
+    - name: refSpine_b
+      parentName: refSpine_a
+      position: {x: -0.17481196, y: -1.0408341e-17, z: 1.8059446e-17}
+      rotation: {x: -1.1101335e-16, y: -1.4098715e-18, z: -0.012698993, w: 0.99991935}
+      scale: {x: 1, y: 1, z: 1}
+    - name: refSpine_c
+      parentName: refSpine_b
+      position: {x: -0.17482963, y: -1.5959456e-16, z: 1.3371983e-16}
+      rotation: {x: -1.11011814e-16, y: -1.5259904e-18, z: 0.011653071, w: 0.9999321}
+      scale: {x: 1, y: 1, z: 1}
+    - name: refSpine_d
+      parentName: refSpine_c
+      position: {x: -0.17478375, y: -4.0939474e-16, z: 1.2749138e-16}
+      rotation: {x: 0.5070286, y: -0.49287122, z: 0.5070286, w: 0.49287122}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_hiSpineCtrl_space_grp
+      parentName: gb_zombie_spine_rig_grp
+      position: {x: 2.4651903e-32, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_spineHigh_ctrl_frzGrp
+      parentName: gb_zombie_hiSpineCtrl_space_grp
+      position: {x: 2.2282515e-16, y: 1.5549419, z: -0.019948555}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_spineHigh_ctrl
+      parentName: gb_zombie_spineHigh_ctrl_frzGrp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_midSpineCtrl_space_grp
+      parentName: gb_zombie_spine_rig_grp
+      position: {x: -0, y: 0, z: -2.1684043e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_spineMid_ctrl_frzGrp
+      parentName: gb_zombie_midSpineCtrl_space_grp
+      position: {x: 1.1342993e-16, y: 1.4030137, z: -0.0108743}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_spineMid_ctrl
+      parentName: gb_zombie_spineMid_ctrl_frzGrp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_spineSplitRot_ctrl
+      parentName: gb_zombie_spineMid_ctrl
+      position: {x: -0.3088549, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lowSpineCtrl_space_grp
+      parentName: gb_zombie_spine_rig_grp
+      position: {x: -0, y: 0, z: -2.1684043e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_spineLow_ctrl
+      parentName: gb_zombie_lowSpineCtrl_space_grp
+      position: {x: -0, y: 1.2023137, z: -0.001781355}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_hipCtrl_space_grp
+      parentName: gb_zombie_spine_rig_grp
+      position: {x: -0, y: 0, z: -2.1684043e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_hip_ctrl
+      parentName: gb_zombie_hipCtrl_space_grp
+      position: {x: -0, y: 1.2023137, z: -0.001781355}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_cogCtrl_space_grp
+      parentName: gb_zombie_spine_rig_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_cog_ctrl
+      parentName: gb_zombie_cogCtrl_space_grp
+      position: {x: -0, y: 1.2023137, z: -0.001781355}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_spineShaper_ctrl_frzGrp
+      parentName: gb_zombie_spine_rig_grp
+      position: {x: 1.6812754e-16, y: 1.4789778, z: -0.015411427}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_spineShaper_ctrl_frzGrp 1
+      parentName: gb_zombie_spineShaper_ctrl_frzGrp
+      position: {x: -0, y: 0, z: 1.7347235e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_spineShaper_ctrl
+      parentName: gb_zombie_spineShaper_ctrl_frzGrp 1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_charVars
+      parentName: gb_zombie_rig_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rootCtrl_space_switch_grp
+      parentName: gb_zombie_rig_grp
+      position: {x: -0, y: 0, z: -0.001781355}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_midSpineCtrl_space_switch_grp
+      parentName: gb_zombie_rig_grp
+      position: {x: 1.1342993e-16, y: 1.4030137, z: -0.0108743}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lowSpineCtrl_space_switch_grp
+      parentName: gb_zombie_rig_grp
+      position: {x: -0, y: 1.2023137, z: -0.001781355}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_cogCtrl_space_switch_grp
+      parentName: gb_zombie_rig_grp
+      position: {x: -0, y: 1.2023137, z: -0.001781355}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_leg_rig_grp
+      parentName: gb_zombie_rig_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_reverseFoot_rig_grp
+      parentName: gb_zombie_lf_leg_rig_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_heel_rev_rig_jnt
+      parentName: gb_zombie_lf_reverseFoot_rig_grp
+      position: {x: -0.11083109, y: 0.011349664, z: -0.112436175}
+      rotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_toe_rev_rig_jnt
+      parentName: gb_zombie_lf_heel_rev_rig_jnt
+      position: {x: -0.35942507, y: 1.7347235e-18, z: 1.5265567e-16}
+      rotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_ball_rev_rig_jnt
+      parentName: gb_zombie_lf_toe_rev_rig_jnt
+      position: {x: -6.938894e-17, y: 0.0035512052, z: -0.1311874}
+      rotation: {x: 0.70704204, y: 0.009567939, z: -0.70704204, w: -0.009567939}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_ankle_rev_rig_jnt
+      parentName: gb_zombie_lf_ball_rev_rig_jnt
+      position: {x: 0.14558215, y: -0.07308469, z: -2.4980018e-16}
+      rotation: {x: 1.9266355e-15, y: 3.9955817e-16, z: -0.23053735, w: 0.97306347}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf__ik_jnt
+      parentName: gb_zombie_lf_toe_rev_rig_jnt
+      position: {x: -5.551115e-17, y: 0.0035512052, z: -0.1311874}
+      rotation: {x: -0.70704204, y: -0.009567959, z: 0.70704204, w: 0.009567959}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_ball_ik_jnt
+      parentName: gb_zombie_lf__ik_jnt
+      position: {x: -0, y: 3.469447e-18, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_toe_ik_jnt
+      parentName: gb_zombie_lf_ball_ik_jnt
+      position: {x: -0.13123545, y: 0, z: -6.938894e-17}
+      rotation: {x: 0.70704204, y: 0.009567959, z: -0.70704204, w: 0.009567959}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_legFK_Grp
+      parentName: gb_zombie_lf_leg_rig_grp
+      position: {x: -1.0468716e-33, y: 1.1210599, z: -0.00139531}
+      rotation: {x: 0.49881083, y: -0.5011864, z: -0.49881083, w: 0.5011864}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_upLeg_fk_jnt
+      parentName: gb_zombie_lf_legFK_Grp
+      position: {x: 0.09998591, y: -0.0017821011, z: 0.11083109}
+      rotation: {x: -2.2419459e-16, y: -1.112675e-16, z: 0.99999964, w: 0.00089016155}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_knee_fk_jnt
+      parentName: gb_zombie_lf_upLeg_fk_jnt
+      position: {x: -0.46680853, y: 3.9560315e-14, z: 2.4980018e-16}
+      rotation: {x: -1.181476e-16, y: 2.2064635e-16, z: -0.030035695, w: 0.99954885}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_ankle_fk_jnt
+      parentName: gb_zombie_lf_knee_fk_jnt
+      position: {x: -0.46311694, y: -2.7755576e-17, z: -1.2490009e-16}
+      rotation: {x: 1.1543834e-17, y: 2.500208e-16, z: 0.53777146, w: 0.84309065}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_ball_fk_jnt
+      parentName: gb_zombie_lf_ankle_fk_jnt
+      position: {x: -0.16289732, y: 1.3877788e-17, z: 4.1633363e-17}
+      rotation: {x: 1.8746652e-16, y: 1.6583113e-16, z: 0.23053734, w: 0.97306347}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_toe_fk_jnt
+      parentName: gb_zombie_lf_ball_fk_jnt
+      position: {x: -0.13123545, y: -2.4286129e-17, z: -4.1633363e-17}
+      rotation: {x: 0.70704204, y: 0.009567959, z: -0.70704204, w: 0.009567959}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_ball_fk_ctrl_frzGrp
+      parentName: gb_zombie_lf_leg_rig_grp
+      position: {x: -0.11083109, y: 0.014900876, z: 0.11580149}
+      rotation: {x: 0.70704204, y: 0.009567939, z: -0.70704204, w: -0.009567939}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_ball_fk_ctrl_frzGrp 1
+      parentName: gb_zombie_lf_ball_fk_ctrl_frzGrp
+      position: {x: 1.3877788e-17, y: 3.469447e-18, z: -1.3877788e-17}
+      rotation: {x: 3.0660805e-31, y: 0, z: 1.7347235e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_ball_fk_ctrl
+      parentName: gb_zombie_lf_ball_fk_ctrl_frzGrp 1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 3.0660805e-31, y: 0, z: 1.7347235e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_ankle_fk_ctrl_frzGrp
+      parentName: gb_zombie_lf_leg_rig_grp
+      position: {x: -0.11083109, y: 0.09189821, z: -0.027749697}
+      rotation: {x: 0.685791, y: 0.17230985, z: -0.685791, w: -0.17230985}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_ankle_fk_ctrl_frzGrp 1
+      parentName: gb_zombie_lf_ankle_fk_ctrl_frzGrp
+      position: {x: 0.0000000053552287, y: -0.000000011517963, z: 0}
+      rotation: {x: 0, y: -4.9303807e-32, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_ankle_fk_ctrl
+      parentName: gb_zombie_lf_ankle_fk_ctrl_frzGrp 1
+      position: {x: 1.3877788e-17, y: 0, z: -1.3877788e-17}
+      rotation: {x: 0, y: 4.9303807e-32, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_knee_fk_ctrl_frzGrp
+      parentName: gb_zombie_lf_leg_rig_grp
+      position: {x: -0.11083109, y: 0.55426013, z: -0.0013155976}
+      rotation: {x: -0.4855207, y: -0.51407164, z: 0.4855207, w: 0.51407164}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_knee_fk_ctrl_frzGrp 1
+      parentName: gb_zombie_lf_knee_fk_ctrl_frzGrp
+      position: {x: -0.0000000054525535, y: -3.2798647e-10, z: -1.3877788e-17}
+      rotation: {x: -8.326673e-17, y: -2.9081542e-32, z: -2.0816682e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_knee_fk_ctrl
+      parentName: gb_zombie_lf_knee_fk_ctrl_frzGrp 1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -2.1570415e-32, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_upLegupJntFkCtrl_grp
+      parentName: gb_zombie_lf_leg_rig_grp
+      position: {x: -0.11083109, y: 1.0210667, z: -0.0027023533}
+      rotation: {x: 0.50074214, y: 0.49925676, z: -0.50074214, w: -0.49925676}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_upLeg_fk_ctrl_frzGrp
+      parentName: gb_zombie_lf_leg_rig_grp
+      position: {x: -0.11083109, y: 1.0210667, z: -0.0027023533}
+      rotation: {x: 0.50074214, y: 0.49925676, z: -0.50074214, w: -0.49925676}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_upLegAlignOffset_rig_grp_frzGrp
+      parentName: gb_zombie_lf_upLeg_fk_ctrl_frzGrp
+      position: {x: 2.220446e-16, y: -4.3368087e-19, z: 4.1633363e-17}
+      rotation: {x: 0.50074214, y: 0.49925676, z: -0.50074214, w: 0.49925676}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_upLegAlignOffset_rig_grp
+      parentName: gb_zombie_lf_upLegAlignOffset_rig_grp_frzGrp
+      position: {x: 1.3877788e-17, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_upLeg_fk_ctrl_frzGrp 1
+      parentName: gb_zombie_lf_upLegAlignOffset_rig_grp
+      position: {x: 1.3877788e-17, y: -2.220446e-16, z: 8.6736174e-19}
+      rotation: {x: 0.50074214, y: 0.49925676, z: -0.50074214, w: -0.49925676}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_upLeg_fk_ctrl
+      parentName: gb_zombie_lf_upLeg_fk_ctrl_frzGrp 1
+      position: {x: -0, y: 4.3368087e-19, z: 1.3877788e-17}
+      rotation: {x: 1.6653345e-16, y: -2.7755576e-16, z: 4.622232e-32, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_legIK_Grp
+      parentName: gb_zombie_lf_leg_rig_grp
+      position: {x: -1.0468716e-33, y: 1.1210599, z: -0.00139531}
+      rotation: {x: 0.49881083, y: -0.5011864, z: -0.49881083, w: 0.5011864}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_upLeg_ik_jnt
+      parentName: gb_zombie_lf_legIK_Grp
+      position: {x: 0.09998591, y: -0.0017821011, z: 0.11083109}
+      rotation: {x: -0.0030450397, y: -0.0987998, z: 0.9951023, w: 0.00088577776}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_knee_ik_jnt
+      parentName: gb_zombie_lf_upLeg_ik_jnt
+      position: {x: -0.46680853, y: 3.9560315e-14, z: 2.4980018e-16}
+      rotation: {x: -1.1814741e-16, y: 2.2065334e-16, z: -0.03003518, w: 0.99954885}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_ankle_ik_jnt
+      parentName: gb_zombie_lf_knee_ik_jnt
+      position: {x: -0.46311694, y: -2.7755576e-17, z: -1.2490009e-16}
+      rotation: {x: 1.1543834e-17, y: 2.500208e-16, z: 0.53777146, w: 0.84309065}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_leg_ikHandle
+      parentName: gb_zombie_lf_leg_rig_grp
+      position: {x: -0.11083109, y: 0.09189822, z: -0.027749697}
+      rotation: {x: 1.7607443e-16, y: 1.8873791e-15, z: 7.910339e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_foot_ctrl
+      parentName: gb_zombie_lf_leg_rig_grp
+      position: {x: -0.11083109, y: -0.000000020155806, z: 0.03133433}
+      rotation: {x: -8.326673e-17, y: 1.110223e-16, z: 1.8873791e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_knee_pv_ctrl_frzGrp
+      parentName: gb_zombie_lf_leg_rig_grp
+      position: {x: -0.11083109, y: 0.5416811, z: 0.46532342}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_knee_line_loc
+      parentName: gb_zombie_lf_knee_pv_ctrl_frzGrp
+      position: {x: -0.0027472721, y: 0.012586411, z: -0.4669118}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: abRTLine_gb_zombie_lf_knee_line_loc
+      parentName: gb_zombie_lf_knee_line_loc
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_legPvCtrlGrp_space_grp
+      parentName: gb_zombie_lf_knee_pv_ctrl_frzGrp
+      position: {x: 0.11083109, y: -0.5416811, z: -0.46532342}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_knee_pv_ctrl
+      parentName: gb_zombie_lf_legPvCtrlGrp_space_grp
+      position: {x: -0.28091797, y: 0.5416811, z: 0.83237886}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_knee_pv_ctrl_annLoc
+      parentName: gb_zombie_lf_knee_pv_ctrl
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_legStrDist_dist
+      parentName: gb_zombie_lf_leg_rig_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_legStrDist_dist_sp
+      parentName: gb_zombie_lf_leg_rig_grp
+      position: {x: -0.11083109, y: 1.0210667, z: -0.0027023533}
+      rotation: {x: -0.50074214, y: -0.49925676, z: 0.50074214, w: 0.49925676}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_legStrDist_dist_ep
+      parentName: gb_zombie_lf_leg_rig_grp
+      position: {x: -0.11083109, y: 0.09189822, z: -0.027749697}
+      rotation: {x: -0.685791, y: -0.17230983, z: 0.685791, w: 0.17230983}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_upLegPvCtrl_dist
+      parentName: gb_zombie_lf_leg_rig_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_upLegPvCtrl_dist_sp
+      parentName: gb_zombie_lf_leg_rig_grp
+      position: {x: -0.11083109, y: 1.0210667, z: -0.0027023533}
+      rotation: {x: -0.50074214, y: -0.49925676, z: 0.50074214, w: 0.49925676}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_upLegPvCtrl_dist_ep
+      parentName: gb_zombie_lf_leg_rig_grp
+      position: {x: -0.28091797, y: 0.5416811, z: 0.83237886}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_legPvIkCtrl_dist
+      parentName: gb_zombie_lf_leg_rig_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_legPvIkCtrl_dist_sp
+      parentName: gb_zombie_lf_leg_rig_grp
+      position: {x: -0.28091797, y: 0.5416811, z: 0.83237886}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_legPvIkCtrl_dist_ep
+      parentName: gb_zombie_lf_leg_rig_grp
+      position: {x: -0.11083109, y: 0.09189822, z: -0.027749697}
+      rotation: {x: 0.685791, y: 0.17230983, z: -0.685791, w: -0.17230983}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_legIkCtrl_space_grp
+      parentName: gb_zombie_lf_leg_rig_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_heel_ik_ctrl_frzGrp
+      parentName: gb_zombie_lf_legIkCtrl_space_grp
+      position: {x: -0.11083109, y: 0.011349664, z: -0.112436175}
+      rotation: {x: -1.2246469e-16, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_heel_ik_ctrl
+      parentName: gb_zombie_lf_heel_ik_ctrl_frzGrp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_ankleBallReader_UpLeg_jnt
+      parentName: gb_zombie_lf_leg_rig_grp
+      position: {x: -0.11083109, y: 1.0210667, z: -0.0027023533}
+      rotation: {x: 0.5490984, y: 0.54480994, z: -0.44748127, w: -0.44881353}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_ankleBallReader_Knee_jnt
+      parentName: gb_zombie_lf_ankleBallReader_UpLeg_jnt
+      position: {x: -0.46680853, y: 3.9543455e-14, z: -2.7755576e-17}
+      rotation: {x: -2.6195922e-17, y: -5.397463e-17, z: -0.03003518, w: 0.99954885}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_ankleBallReader_Ankle_jnt
+      parentName: gb_zombie_lf_ankleBallReader_Knee_jnt
+      position: {x: -0.46311694, y: -0.00000023980064, z: -3.469447e-16}
+      rotation: {x: 0.08490179, y: -0.050619762, z: 0.53513736, w: 0.8389621}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_ankleBallReader_Ball_jnt
+      parentName: gb_zombie_lf_ankleBallReader_Ankle_jnt
+      position: {x: -0.16289732, y: 0.000000084347775, z: -6.938894e-17}
+      rotation: {x: -5.8559795e-17, y: 1.30475e-17, z: 0.23053734, w: 0.97306347}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_hipCtrl_space_switch_grp
+      parentName: gb_zombie_rig_grp
+      position: {x: -0, y: 1.2023137, z: -0.001781355}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lfLegIkCtrl_space_switch_grp
+      parentName: gb_zombie_rig_grp
+      position: {x: -0.11083109, y: 0.011349664, z: -0.112436175}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_leg_rig_grp
+      parentName: gb_zombie_rig_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_reverseFoot_rig_grp
+      parentName: gb_zombie_rt_leg_rig_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_heel_rev_rig_jnt
+      parentName: gb_zombie_rt_reverseFoot_rig_grp
+      position: {x: 0.11083109, y: 0.011349664, z: -0.112436175}
+      rotation: {x: 0.000000035558287, y: 0.7071067, z: -0.000000035558276, w: 0.7071069}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_toe_rev_rig_jnt
+      parentName: gb_zombie_rt_heel_rev_rig_jnt
+      position: {x: -0.3594252, y: -1.7347235e-18, z: 1.1199375e-14}
+      rotation: {x: 0.7071069, y: 4.3297796e-17, z: 0.7071067, w: -4.329781e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_ball_rev_rig_jnt
+      parentName: gb_zombie_rt_toe_rev_rig_jnt
+      position: {x: -1.3877788e-17, y: -0.0035512, z: 0.131188}
+      rotation: {x: 0.70704204, y: 0.009567939, z: -0.70704204, w: -0.009567939}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_ankle_rev_rig_jnt
+      parentName: gb_zombie_rt_ball_rev_rig_jnt
+      position: {x: -0.14558166, y: 0.07308465, z: -3.6082248e-16}
+      rotation: {x: -2.117379e-15, y: -4.44749e-16, z: -0.23053735, w: 0.97306347}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt__ik_jnt
+      parentName: gb_zombie_rt_toe_rev_rig_jnt
+      position: {x: -4.1633363e-17, y: -0.0035512, z: 0.131188}
+      rotation: {x: 0.70704204, y: 0.009567959, z: -0.70704204, w: -0.009567959}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_ball_ik_jnt
+      parentName: gb_zombie_rt__ik_jnt
+      position: {x: -1.3877788e-17, y: -3.469447e-18, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_toe_ik_jnt
+      parentName: gb_zombie_rt_ball_ik_jnt
+      position: {x: 0.13123606, y: 0.00000002126165, z: 1.3877788e-17}
+      rotation: {x: 0.70704204, y: 0.009567959, z: -0.70704204, w: 0.009567959}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_legFK_Grp
+      parentName: gb_zombie_rt_leg_rig_grp
+      position: {x: -1.0468716e-33, y: 1.1210599, z: -0.00139531}
+      rotation: {x: 0.49881083, y: -0.5011864, z: -0.49881083, w: 0.5011864}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_upLeg_fk_jnt
+      parentName: gb_zombie_rt_legFK_Grp
+      position: {x: 0.09998252, y: -0.0017820817, z: -0.110831}
+      rotation: {x: 1.112675e-16, y: -2.2419459e-16, z: -0.0008901718, w: 0.99999964}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_knee_fk_jnt
+      parentName: gb_zombie_rt_upLeg_fk_jnt
+      position: {x: 0.46681207, y: -0.000000016316989, z: 2.220446e-16}
+      rotation: {x: 1.181476e-16, y: -2.2064635e-16, z: -0.030035695, w: 0.99954885}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_ankle_fk_jnt
+      parentName: gb_zombie_rt_knee_fk_jnt
+      position: {x: 0.46311682, y: -0.0000000078776, z: 1.8041124e-16}
+      rotation: {x: -1.1543834e-17, y: -2.500208e-16, z: 0.53777146, w: 0.84309065}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_ball_fk_jnt
+      parentName: gb_zombie_rt_ankle_fk_jnt
+      position: {x: 0.16289686, y: -0.00000018694243, z: 1.5265567e-16}
+      rotation: {x: -1.8746652e-16, y: -1.6583113e-16, z: 0.23053734, w: 0.97306347}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_toe_fk_jnt
+      parentName: gb_zombie_rt_ball_fk_jnt
+      position: {x: 0.13123606, y: 0.00000002126165, z: -2.7755576e-17}
+      rotation: {x: 0.70704204, y: 0.009567959, z: -0.70704204, w: 0.009567959}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_ball_fk_ctrl_frzGrp
+      parentName: gb_zombie_rt_leg_rig_grp
+      position: {x: 0.110831, y: 0.014900888, z: 0.115801}
+      rotation: {x: 0.009567939, y: -0.70704204, z: -0.009567939, w: 0.70704204}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_ball_fk_ctrl_frzGrp 1
+      parentName: gb_zombie_rt_ball_fk_ctrl_frzGrp
+      position: {x: -1.3877788e-17, y: -3.469447e-18, z: -2.7755576e-17}
+      rotation: {x: 2.6020852e-18, y: -5.551115e-17, z: 1.4444475e-34, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_ball_fk_ctrl
+      parentName: gb_zombie_rt_ball_fk_ctrl_frzGrp 1
+      position: {x: -0, y: 3.469447e-18, z: 0}
+      rotation: {x: -1.92593e-34, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_ankle_fk_ctrl_frzGrp
+      parentName: gb_zombie_rt_leg_rig_grp
+      position: {x: 0.110831, y: 0.09189819, z: -0.0277497}
+      rotation: {x: 0.17230985, y: -0.685791, z: -0.17230985, w: 0.685791}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_ankle_fk_ctrl_frzGrp 1
+      parentName: gb_zombie_rt_ankle_fk_ctrl_frzGrp
+      position: {x: -0.0000000011331845, y: 0.0000000024372397, z: 0}
+      rotation: {x: -1.8488927e-32, y: -2.4651903e-32, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_ankle_fk_ctrl
+      parentName: gb_zombie_rt_ankle_fk_ctrl_frzGrp 1
+      position: {x: -0, y: 1.3877788e-17, z: 0}
+      rotation: {x: -1.8488927e-32, y: -2.4651903e-32, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_knee_fk_ctrl_frzGrp
+      parentName: gb_zombie_rt_leg_rig_grp
+      position: {x: 0.110831, y: 0.55426, z: -0.0013156}
+      rotation: {x: 0.51407164, y: -0.4855207, z: -0.51407164, w: 0.4855207}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_knee_fk_ctrl_frzGrp 1
+      parentName: gb_zombie_rt_knee_fk_ctrl_frzGrp
+      position: {x: 0.000000014357562, y: 8.6364793e-10, z: -1.3877788e-17}
+      rotation: {x: -4.9303807e-32, y: 8.628166e-32, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_knee_fk_ctrl
+      parentName: gb_zombie_rt_knee_fk_ctrl_frzGrp 1
+      position: {x: -0, y: -6.938894e-18, z: 2.7755576e-17}
+      rotation: {x: 4.9303807e-32, y: -1.540744e-32, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_upLegupJntFkCtrl_grp
+      parentName: gb_zombie_rt_leg_rig_grp
+      position: {x: 0.110831, y: 1.02107, z: -0.00270235}
+      rotation: {x: 0.49925676, y: -0.50074214, z: -0.49925676, w: 0.50074214}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_upLeg_fk_ctrl_frzGrp
+      parentName: gb_zombie_rt_leg_rig_grp
+      position: {x: 0.110831, y: 1.02107, z: -0.00270235}
+      rotation: {x: 0.49925676, y: -0.50074214, z: -0.49925676, w: 0.50074214}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_upLegAlignOffset_rig_grp_frzGrp
+      parentName: gb_zombie_rt_upLeg_fk_ctrl_frzGrp
+      position: {x: -2.220446e-16, y: -1.2468325e-18, z: 0}
+      rotation: {x: -0.49925676, y: 0.50074214, z: 0.49925676, w: 0.50074214}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_upLegAlignOffset_rig_grp
+      parentName: gb_zombie_rt_upLegAlignOffset_rig_grp_frzGrp
+      position: {x: -0, y: 0, z: 4.3368087e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_upLeg_fk_ctrl_frzGrp 1
+      parentName: gb_zombie_rt_upLegAlignOffset_rig_grp
+      position: {x: -0, y: -2.220446e-16, z: 1.3010426e-18}
+      rotation: {x: 0.49925676, y: -0.50074214, z: -0.49925676, w: 0.50074214}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_upLeg_fk_ctrl
+      parentName: gb_zombie_rt_upLeg_fk_ctrl_frzGrp 1
+      position: {x: -0, y: -3.7947076e-19, z: 0}
+      rotation: {x: 5.551115e-17, y: -2.220446e-16, z: 5.616167e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_legIK_Grp
+      parentName: gb_zombie_rt_leg_rig_grp
+      position: {x: -1.0468716e-33, y: 1.1210599, z: -0.00139531}
+      rotation: {x: 0.49881083, y: -0.5011864, z: -0.49881083, w: 0.5011864}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_upLeg_ik_jnt
+      parentName: gb_zombie_rt_legIK_Grp
+      position: {x: 0.09998252, y: -0.0017820817, z: -0.110831}
+      rotation: {x: -0.086232804, y: 0.0026577637, z: -0.0008868528, w: 0.9962711}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_knee_ik_jnt
+      parentName: gb_zombie_rt_upLeg_ik_jnt
+      position: {x: 0.46681207, y: -0.000000016316989, z: 2.220446e-16}
+      rotation: {x: 1.1814762e-16, y: -2.2064627e-16, z: -0.030035736, w: 0.99954885}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_ankle_ik_jnt
+      parentName: gb_zombie_rt_knee_ik_jnt
+      position: {x: 0.46311682, y: -0.0000000078776, z: 1.8041124e-16}
+      rotation: {x: -1.1543834e-17, y: -2.500208e-16, z: 0.53777146, w: 0.84309065}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_leg_ikHandle
+      parentName: gb_zombie_rt_leg_rig_grp
+      position: {x: 0.110831, y: 0.0918982, z: -0.0277497}
+      rotation: {x: 2.1684043e-17, y: -1.8175294e-15, z: -5.186823e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_foot_ctrl
+      parentName: gb_zombie_rt_leg_rig_grp
+      position: {x: 0.110831045, y: -0.00000000964053, z: 0.03133386}
+      rotation: {x: -8.904e-11, y: -2.7755578e-16, z: 2.109424e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_knee_pv_ctrl_frzGrp
+      parentName: gb_zombie_rt_leg_rig_grp
+      position: {x: 0.110831, y: 0.5416809, z: 0.46532694}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_knee_line_loc
+      parentName: gb_zombie_rt_knee_pv_ctrl_frzGrp
+      position: {x: 0.0024006972, y: 0.012584703, z: -0.46685037}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: abRTLine_gb_zombie_rt_knee_line_loc
+      parentName: gb_zombie_rt_knee_line_loc
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_legPvCtrlGrp_space_grp
+      parentName: gb_zombie_rt_knee_pv_ctrl_frzGrp
+      position: {x: -0.110831, y: -0.5416809, z: -0.46532694}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_knee_pv_ctrl
+      parentName: gb_zombie_rt_legPvCtrlGrp_space_grp
+      position: {x: 0.25875613, y: 0.5416809, z: 0.8323823}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_knee_pv_ctrl_annLoc
+      parentName: gb_zombie_rt_knee_pv_ctrl
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_legStrDist_dist
+      parentName: gb_zombie_rt_leg_rig_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_legStrDist_dist_sp
+      parentName: gb_zombie_rt_leg_rig_grp
+      position: {x: 0.110831, y: 1.02107, z: -0.00270235}
+      rotation: {x: 0.49925676, y: -0.50074214, z: -0.49925676, w: 0.50074214}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_legStrDist_dist_ep
+      parentName: gb_zombie_rt_leg_rig_grp
+      position: {x: 0.110831, y: 0.0918982, z: -0.0277497}
+      rotation: {x: 0.17230983, y: -0.685791, z: -0.17230983, w: 0.685791}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_upLegPvCtrl_dist
+      parentName: gb_zombie_rt_leg_rig_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_upLegPvCtrl_dist_sp
+      parentName: gb_zombie_rt_leg_rig_grp
+      position: {x: 0.110831, y: 1.02107, z: -0.00270235}
+      rotation: {x: 0.49925676, y: -0.50074214, z: -0.49925676, w: 0.50074214}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_upLegPvCtrl_dist_ep
+      parentName: gb_zombie_rt_leg_rig_grp
+      position: {x: 0.25875613, y: 0.5416809, z: 0.8323824}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_legPvIkCtrl_dist
+      parentName: gb_zombie_rt_leg_rig_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_legPvIkCtrl_dist_sp
+      parentName: gb_zombie_rt_leg_rig_grp
+      position: {x: 0.25875613, y: 0.5416809, z: 0.8323824}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_legPvIkCtrl_dist_ep
+      parentName: gb_zombie_rt_leg_rig_grp
+      position: {x: 0.110831, y: 0.0918982, z: -0.0277497}
+      rotation: {x: 0.17230983, y: -0.685791, z: -0.17230983, w: 0.685791}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_legIkCtrl_space_grp
+      parentName: gb_zombie_rt_leg_rig_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_heel_ik_ctrl_frzGrp
+      parentName: gb_zombie_rt_legIkCtrl_space_grp
+      position: {x: 0.11083109, y: 0.011349664, z: -0.112436175}
+      rotation: {x: -6.123234e-17, y: 1.6081226e-16, z: 2.8327693e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_heel_ik_ctrl
+      parentName: gb_zombie_rt_heel_ik_ctrl_frzGrp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_ankleBallReader_UpLeg_jnt
+      parentName: gb_zombie_rt_leg_rig_grp
+      position: {x: 0.110831, y: 1.02107, z: -0.00270235}
+      rotation: {x: 0.45550227, y: -0.45452923, z: -0.5392882, w: 0.54322106}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_ankleBallReader_Knee_jnt
+      parentName: gb_zombie_rt_ankleBallReader_UpLeg_jnt
+      position: {x: 0.46681207, y: -0.000000016316989, z: 1.110223e-16}
+      rotation: {x: 5.89409e-17, y: -1.1165001e-16, z: -0.030035736, w: 0.99954885}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_ankleBallReader_Ankle_jnt
+      parentName: gb_zombie_rt_ankleBallReader_Knee_jnt
+      position: {x: 0.46311682, y: -0.000000025826372, z: 1.110223e-16}
+      rotation: {x: 0.07410257, y: -0.044181086, z: 0.5357664, w: 0.83994716}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_ankleBallReader_Ball_jnt
+      parentName: gb_zombie_rt_ankleBallReader_Ankle_jnt
+      position: {x: 0.16289686, y: -0.00000018061462, z: 4.1633363e-17}
+      rotation: {x: -9.5055003e-17, y: -8.3092126e-17, z: 0.23053734, w: 0.97306347}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rtLegIkCtrl_space_switch_grp
+      parentName: gb_zombie_rig_grp
+      position: {x: 0.11083109, y: 0.011349664, z: -0.112436175}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_arm_rig_grp
+      parentName: gb_zombie_rig_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_clavicle_fk_ctrl_frzGrp
+      parentName: gb_zombie_lf_arm_rig_grp
+      position: {x: -0.096764654, y: 1.7306267, z: -0.019948555}
+      rotation: {x: -0.009914883, y: -0.09058052, z: 0.10835675, w: 0.9899271}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_clavicle_fk_ctrl_frzGrp 1
+      parentName: gb_zombie_lf_clavicle_fk_ctrl_frzGrp
+      position: {x: 1.110223e-16, y: 0, z: -1.0408341e-17}
+      rotation: {x: 3.469447e-18, y: -2.7755576e-17, z: -3.903128e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_clavicle_fk_ctrl
+      parentName: gb_zombie_lf_clavicle_fk_ctrl_frzGrp 1
+      position: {x: -5.551115e-17, y: 2.220446e-16, z: 9.97466e-18}
+      rotation: {x: 0, y: -0, z: -2.6020852e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_armFK_Grp
+      parentName: gb_zombie_lf_arm_rig_grp
+      position: {x: -0.096764654, y: 1.7306267, z: -0.019948555}
+      rotation: {x: -0.009914883, y: -0.09058052, z: 0.10835675, w: 0.9899271}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_upArm_fk_jnt
+      parentName: gb_zombie_lf_armFK_Grp
+      position: {x: -0.13035667, y: 6.661338e-16, z: 0}
+      rotation: {x: 0.010371586, y: 0.09475288, z: -0.10831399, w: 0.98953646}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_elbow_fk_jnt
+      parentName: gb_zombie_lf_upArm_fk_jnt
+      position: {x: -0.3053753, y: -6.661338e-16, z: 0}
+      rotation: {x: -1.0169323e-17, y: 0.009370406, z: 1.1944224e-17, w: 0.99995613}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_wrist_fk_jnt
+      parentName: gb_zombie_lf_elbow_fk_jnt
+      position: {x: -0.2942355, y: 0, z: 9.992007e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_elbow_fk_ctrl_frzGrp
+      parentName: gb_zombie_lf_arm_rig_grp
+      position: {x: -0.5272856, y: 1.702427, z: -0.040471464}
+      rotation: {x: -5.3429483e-16, y: 0.0135857565, z: 6.032501e-16, w: 0.99990773}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_elbow_fk_ctrl_frzGrp 1
+      parentName: gb_zombie_lf_elbow_fk_ctrl_frzGrp
+      position: {x: -0.0000000096654595, y: -2.220446e-16, z: -1.811624e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_elbow_fk_ctrl
+      parentName: gb_zombie_lf_elbow_fk_ctrl_frzGrp 1
+      position: {x: -0, y: 6.661338e-16, z: -6.938894e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_upArmupJntFkCtrl_grp
+      parentName: gb_zombie_lf_arm_rig_grp
+      position: {x: -0.22192113, y: 1.702427, z: -0.043046135}
+      rotation: {x: -3.330669e-16, y: 0.0042156195, z: -5.551115e-17, w: 0.9999911}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_upArm_fk_ctrl_frzGrp
+      parentName: gb_zombie_lf_arm_rig_grp
+      position: {x: -0.22192113, y: 1.702427, z: -0.043046135}
+      rotation: {x: 0, y: 0.0042156195, z: -0, w: 0.9999911}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_upArmAlignOffset_rig_grp_frzGrp
+      parentName: gb_zombie_lf_upArm_fk_ctrl_frzGrp
+      position: {x: -0, y: 0, z: -1.3877788e-17}
+      rotation: {x: 0, y: -0.0042156195, z: -0, w: 0.9999911}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_upArmAlignOffset_rig_grp
+      parentName: gb_zombie_lf_upArmAlignOffset_rig_grp_frzGrp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_upArm_fk_ctrl_frzGrp 1
+      parentName: gb_zombie_lf_upArmAlignOffset_rig_grp
+      position: {x: -0, y: 0, z: 1.3877788e-17}
+      rotation: {x: 0, y: 0.0042156195, z: -0, w: 0.9999911}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_upArm_fk_ctrl
+      parentName: gb_zombie_lf_upArm_fk_ctrl_frzGrp 1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_armIK_Grp
+      parentName: gb_zombie_lf_arm_rig_grp
+      position: {x: -0.096764654, y: 1.7306267, z: -0.019948555}
+      rotation: {x: -0.009914883, y: -0.09058052, z: 0.10835675, w: 0.9899271}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_upArm_ik_jnt
+      parentName: gb_zombie_lf_armIK_Grp
+      position: {x: -0.13035667, y: 6.661338e-16, z: 6.938894e-18}
+      rotation: {x: -0.44373327, y: 0.1338026, z: -0.04869708, w: 0.8847747}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_elbow_ik_jnt
+      parentName: gb_zombie_lf_upArm_ik_jnt
+      position: {x: -0.3053753, y: -6.661338e-16, z: 0}
+      rotation: {x: -1.0168753e-17, y: 0.009369889, z: 1.2004315e-17, w: 0.99995613}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_wrist_ik_jnt
+      parentName: gb_zombie_lf_elbow_ik_jnt
+      position: {x: -0.2942355, y: 0, z: 9.992007e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_arm_ikHandle
+      parentName: gb_zombie_lf_arm_rig_grp
+      position: {x: -0.8214125, y: 1.702427, z: -0.03247738}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_handCtrl_grp
+      parentName: gb_zombie_lf_arm_rig_grp
+      position: {x: -0.8214125, y: 1.702427, z: -0.032477684}
+      rotation: {x: -0.45816094, y: 0.012075477, z: 0.0018516892, w: 0.8887853}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_hand_ctrl_frzGrp
+      parentName: gb_zombie_lf_handCtrl_grp
+      position: {x: -2.220446e-16, y: 2.220446e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_hand_ctrl_frzGrp 1
+      parentName: gb_zombie_lf_hand_ctrl_frzGrp
+      position: {x: -0, y: 8.881784e-16, z: 0}
+      rotation: {x: 0.4581438, y: 0.00000045895518, z: 0.0043729446, w: 0.8888673}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_hand_ctrl
+      parentName: gb_zombie_lf_hand_ctrl_frzGrp 1
+      position: {x: -0, y: -4.440892e-16, z: 6.938894e-18}
+      rotation: {x: 0, y: 1.7347235e-18, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_elbow_pv_ctrl_frzGrp
+      parentName: gb_zombie_lf_arm_rig_grp
+      position: {x: -0.53266835, y: 1.702427, z: -0.34579933}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_elbow_line_loc
+      parentName: gb_zombie_lf_elbow_pv_ctrl_frzGrp
+      position: {x: 0.00540356, y: -0.0022872442, z: 0.30650663}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: abRTLine_gb_zombie_lf_elbow_line_loc
+      parentName: gb_zombie_lf_elbow_line_loc
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_armPvCtrlGrp_space_grp
+      parentName: gb_zombie_lf_elbow_pv_ctrl_frzGrp
+      position: {x: 0.53266835, y: -1.702427, z: 0.34579933}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_elbow_pv_ctrl
+      parentName: gb_zombie_lf_armPvCtrlGrp_space_grp
+      position: {x: -0.37637252, y: 1.273639, z: -0.34579933}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_elbow_pv_ctrl_annLoc
+      parentName: gb_zombie_lf_elbow_pv_ctrl
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_armStrDist_dist
+      parentName: gb_zombie_lf_arm_rig_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_armStrDist_dist_sp
+      parentName: gb_zombie_lf_arm_rig_grp
+      position: {x: -0.22192113, y: 1.702427, z: -0.043046135}
+      rotation: {x: -5.2735594e-16, y: 0.0042156195, z: 6.0791216e-16, w: 0.9999911}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_armStrDist_dist_ep
+      parentName: gb_zombie_lf_arm_rig_grp
+      position: {x: -0.8214125, y: 1.702427, z: -0.03247738}
+      rotation: {x: 0, y: 0.0135857565, z: -0, w: 0.99990773}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_upArmPvCtrl_dist
+      parentName: gb_zombie_lf_arm_rig_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_upArmPvCtrl_dist_sp
+      parentName: gb_zombie_lf_arm_rig_grp
+      position: {x: -0.22192113, y: 1.702427, z: -0.043046135}
+      rotation: {x: -5.2735594e-16, y: 0.0042156195, z: 6.0791216e-16, w: 0.9999911}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_upArmPvCtrl_dist_ep
+      parentName: gb_zombie_lf_arm_rig_grp
+      position: {x: -0.37637252, y: 1.273639, z: -0.34579933}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_armPvIkCtrl_dist
+      parentName: gb_zombie_lf_arm_rig_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_armPvIkCtrl_dist_sp
+      parentName: gb_zombie_lf_arm_rig_grp
+      position: {x: -0.37637252, y: 1.273639, z: -0.34579933}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_armPvIkCtrl_dist_ep
+      parentName: gb_zombie_lf_arm_rig_grp
+      position: {x: -0.8214125, y: 1.702427, z: -0.03247738}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_armIkCtrl_space_grp
+      parentName: gb_zombie_lf_arm_rig_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_arm_ik_ctrl_frzGrp
+      parentName: gb_zombie_lf_armIkCtrl_space_grp
+      position: {x: -0.8214125, y: 1.702427, z: -0.03247738}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_arm_ik_ctrl
+      parentName: gb_zombie_lf_arm_ik_ctrl_frzGrp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_hiSpineCtrl_space_switch_grp
+      parentName: gb_zombie_rig_grp
+      position: {x: 2.2282515e-16, y: 1.5549419, z: -0.019948555}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lfArmIkCtrl_space_switch_grp
+      parentName: gb_zombie_rig_grp
+      position: {x: -0.8214125, y: 1.702427, z: -0.03247738}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_arm_rig_grp
+      parentName: gb_zombie_rig_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_clavicle_fk_ctrl_frzGrp
+      parentName: gb_zombie_rt_arm_rig_grp
+      position: {x: 0.0967647, y: 1.73063, z: -0.0199486}
+      rotation: {x: 0.9899272, y: -0.10835676, z: -0.09058054, w: 0.009914908}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_clavicle_fk_ctrl_frzGrp 1
+      parentName: gb_zombie_rt_clavicle_fk_ctrl_frzGrp
+      position: {x: -5.551115e-17, y: 2.220446e-16, z: 2.0383001e-17}
+      rotation: {x: -1.3877788e-17, y: -4.1633363e-17, z: -3.512815e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_clavicle_fk_ctrl
+      parentName: gb_zombie_rt_clavicle_fk_ctrl_frzGrp 1
+      position: {x: -0, y: -2.220446e-16, z: -2.0383001e-17}
+      rotation: {x: -3.469447e-18, y: -3.0092655e-35, z: 8.673617e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_armFK_Grp
+      parentName: gb_zombie_rt_arm_rig_grp
+      position: {x: 0.0967647, y: 1.73063, z: -0.0199486}
+      rotation: {x: 0.9899272, y: -0.10835676, z: -0.09058054, w: 0.009914908}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_upArm_fk_jnt
+      parentName: gb_zombie_rt_armFK_Grp
+      position: {x: 0.13035657, y: 0.00000039540552, z: -0.000000045334414}
+      rotation: {x: 0.010371586, y: 0.09475288, z: -0.10831399, w: 0.98953646}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_elbow_fk_jnt
+      parentName: gb_zombie_rt_upArm_fk_jnt
+      position: {x: 0.30537584, y: -4.440892e-16, z: 0.00000007391146}
+      rotation: {x: 8.521047e-17, y: 0.009370406, z: 1.0045829e-16, w: 0.99995613}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_wrist_fk_jnt
+      parentName: gb_zombie_rt_elbow_fk_jnt
+      position: {x: 0.2942346, y: -4.440892e-16, z: -0.000000038189484}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_elbow_fk_ctrl_frzGrp
+      parentName: gb_zombie_rt_arm_rig_grp
+      position: {x: 0.527286, y: 1.70243, z: -0.0404715}
+      rotation: {x: 0.99990773, y: -5.5128393e-16, z: 0.0135857565, w: 6.870569e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_elbow_fk_ctrl_frzGrp 1
+      parentName: gb_zombie_rt_elbow_fk_ctrl_frzGrp
+      position: {x: -0.000000009076967, y: 0, z: -1.7013213e-10}
+      rotation: {x: -0, y: -3.469447e-18, z: -3.081488e-33, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_elbow_fk_ctrl
+      parentName: gb_zombie_rt_elbow_fk_ctrl_frzGrp 1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 1.540744e-33, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_upArmupJntFkCtrl_grp
+      parentName: gb_zombie_rt_arm_rig_grp
+      position: {x: 0.221921, y: 1.70243, z: -0.0430461}
+      rotation: {x: 0.9999911, y: 5.619009e-17, z: 0.0042156195, w: 6.099383e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_upArm_fk_ctrl_frzGrp
+      parentName: gb_zombie_rt_arm_rig_grp
+      position: {x: 0.221921, y: 1.70243, z: -0.0430461}
+      rotation: {x: 0.9999911, y: -2.5813226e-19, z: 0.0042156195, w: 6.1231793e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_upArmAlignOffset_rig_grp_frzGrp
+      parentName: gb_zombie_rt_upArm_fk_ctrl_frzGrp
+      position: {x: 2.7755576e-17, y: 8.881784e-16, z: 6.938894e-18}
+      rotation: {x: 0.9999911, y: -1.1942302e-18, z: 0.0042156195, w: -2.8326436e-16}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_upArmAlignOffset_rig_grp
+      parentName: gb_zombie_rt_upArmAlignOffset_rig_grp_frzGrp
+      position: {x: -0, y: 2.220446e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_upArm_fk_ctrl_frzGrp 1
+      parentName: gb_zombie_rt_upArmAlignOffset_rig_grp
+      position: {x: -2.7755576e-17, y: 4.440892e-16, z: 6.938894e-18}
+      rotation: {x: 0.9999911, y: 1.1942302e-18, z: 0.0042156195, w: 2.8326436e-16}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_upArm_fk_ctrl
+      parentName: gb_zombie_rt_upArm_fk_ctrl_frzGrp 1
+      position: {x: 2.7755576e-17, y: 0, z: 0}
+      rotation: {x: 0, y: 8.6736174e-19, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_armIK_Grp
+      parentName: gb_zombie_rt_arm_rig_grp
+      position: {x: 0.0967647, y: 1.73063, z: -0.0199486}
+      rotation: {x: 0.9899272, y: -0.10835676, z: -0.09058054, w: 0.009914908}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_upArm_ik_jnt
+      parentName: gb_zombie_rt_armIK_Grp
+      position: {x: 0.13035657, y: 0.00000039540552, z: -0.000000045334414}
+      rotation: {x: 0.010371594, y: 0.09475288, z: -0.108314, w: 0.98953646}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_elbow_ik_jnt
+      parentName: gb_zombie_rt_upArm_ik_jnt
+      position: {x: 0.30537584, y: -4.440892e-16, z: 0.00000007391146}
+      rotation: {x: 8.5199716e-17, y: 0.009362618, z: 1.00480514e-16, w: 0.9999562}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_wrist_ik_jnt
+      parentName: gb_zombie_rt_elbow_ik_jnt
+      position: {x: 0.2942346, y: -4.440892e-16, z: -0.000000038189484}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_arm_ikHandle
+      parentName: gb_zombie_rt_arm_rig_grp
+      position: {x: 0.821412, y: 1.70243, z: -0.0324774}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_handCtrl_grp
+      parentName: gb_zombie_rt_arm_rig_grp
+      position: {x: 0.8214121, y: 1.70243, z: -0.032481983}
+      rotation: {x: 0.99990785, y: -8.3141087e-19, z: 0.01357797, w: 6.1226705e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_hand_ctrl_frzGrp
+      parentName: gb_zombie_rt_handCtrl_grp
+      position: {x: -0, y: 2.220446e-16, z: 0}
+      rotation: {x: -0, y: -3.469447e-18, z: -1.540744e-33, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_hand_ctrl_frzGrp 1
+      parentName: gb_zombie_rt_hand_ctrl_frzGrp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 2.219401e-16, y: 0.0000077879495, z: 7.694625e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_hand_ctrl
+      parentName: gb_zombie_rt_hand_ctrl_frzGrp 1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 1.540744e-33, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_elbow_pv_ctrl_frzGrp
+      parentName: gb_zombie_rt_arm_rig_grp
+      position: {x: 0.53266877, y: 1.70243, z: -0.34579992}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_elbow_line_loc
+      parentName: gb_zombie_rt_elbow_pv_ctrl_frzGrp
+      position: {x: -0.005382783, y: 0, z: 0.3053284}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: abRTLine_gb_zombie_rt_elbow_line_loc
+      parentName: gb_zombie_rt_elbow_line_loc
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_armPvCtrlGrp_space_grp
+      parentName: gb_zombie_rt_elbow_pv_ctrl_frzGrp
+      position: {x: -0.53266877, y: -1.70243, z: 0.34579992}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_elbow_pv_ctrl
+      parentName: gb_zombie_rt_armPvCtrlGrp_space_grp
+      position: {x: 0.53266877, y: 1.70243, z: -0.34579992}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_elbow_pv_ctrl_annLoc
+      parentName: gb_zombie_rt_elbow_pv_ctrl
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_armStrDist_dist
+      parentName: gb_zombie_rt_arm_rig_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_armStrDist_dist_sp
+      parentName: gb_zombie_rt_arm_rig_grp
+      position: {x: 0.221921, y: 1.70243, z: -0.0430461}
+      rotation: {x: 0.9999911, y: -5.825944e-16, z: 0.0042156195, w: 2.8572542e-16}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_armStrDist_dist_ep
+      parentName: gb_zombie_rt_arm_rig_grp
+      position: {x: 0.821412, y: 1.70243, z: -0.0324774}
+      rotation: {x: 0.99990773, y: -3.8485314e-18, z: 0.0135857565, w: 2.832508e-16}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_upArmPvCtrl_dist
+      parentName: gb_zombie_rt_arm_rig_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_upArmPvCtrl_dist_sp
+      parentName: gb_zombie_rt_arm_rig_grp
+      position: {x: 0.221921, y: 1.70243, z: -0.0430461}
+      rotation: {x: 0.9999911, y: -5.825944e-16, z: 0.0042156195, w: 2.8572542e-16}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_upArmPvCtrl_dist_ep
+      parentName: gb_zombie_rt_arm_rig_grp
+      position: {x: 0.53266877, y: 1.70243, z: -0.34579992}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_armPvIkCtrl_dist
+      parentName: gb_zombie_rt_arm_rig_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_armPvIkCtrl_dist_sp
+      parentName: gb_zombie_rt_arm_rig_grp
+      position: {x: 0.53266877, y: 1.70243, z: -0.34579992}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_armPvIkCtrl_dist_ep
+      parentName: gb_zombie_rt_arm_rig_grp
+      position: {x: 0.821412, y: 1.70243, z: -0.0324774}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_armIkCtrl_space_grp
+      parentName: gb_zombie_rt_arm_rig_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_arm_ik_ctrl_frzGrp
+      parentName: gb_zombie_rt_armIkCtrl_space_grp
+      position: {x: 0.821412, y: 1.70243, z: -0.0324774}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_arm_ik_ctrl
+      parentName: gb_zombie_rt_arm_ik_ctrl_frzGrp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rtArmIkCtrl_space_switch_grp
+      parentName: gb_zombie_rig_grp
+      position: {x: 0.821412, y: 1.70243, z: -0.0324774}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_hand_rig_grp
+      parentName: gb_zombie_rig_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_thumb_ikHandle
+      parentName: gb_zombie_lf_hand_rig_grp
+      position: {x: -0.91978055, y: 1.6694249, z: 0.07062882}
+      rotation: {x: -2.7755576e-17, y: 4.4962e-41, z: -1.3877789e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_thumbCtrl_space_grp
+      parentName: gb_zombie_lf_hand_rig_grp
+      position: {x: 4.6518345e-14, y: -2.220446e-16, z: 1.7229829e-12}
+      rotation: {x: 0, y: 1.7347235e-18, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_thumb_ik_ctrl_frzGrp
+      parentName: gb_zombie_lf_thumbCtrl_space_grp
+      position: {x: -0.91978055, y: 1.6694249, z: 0.07062882}
+      rotation: {x: -0.6982536, y: 0.11154369, z: 0.20221895, w: 0.67757475}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_thumb_ik_ctrl
+      parentName: gb_zombie_lf_thumb_ik_ctrl_frzGrp
+      position: {x: -0, y: -2.7755576e-17, z: 2.220446e-16}
+      rotation: {x: -6.361582e-18, y: 8.396222e-18, z: -2.7755576e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_index_ikHandle
+      parentName: gb_zombie_lf_hand_rig_grp
+      position: {x: -1.0315164, y: 1.6971778, z: 0.019561617}
+      rotation: {x: -1.7087026e-16, y: 2.7755576e-17, z: 4.8572257e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_indexCtrl_space_grp
+      parentName: gb_zombie_lf_hand_rig_grp
+      position: {x: 4.6518345e-14, y: -2.220446e-16, z: 1.7229829e-12}
+      rotation: {x: 0, y: 1.7347235e-18, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_index_ik_ctrl_frzGrp
+      parentName: gb_zombie_lf_indexCtrl_space_grp
+      position: {x: -1.0315164, y: 1.6971778, z: 0.019561617}
+      rotation: {x: -0.7049746, y: -0.05487075, z: 0.11631155, w: 0.69747525}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_index_ik_ctrl
+      parentName: gb_zombie_lf_index_ik_ctrl_frzGrp
+      position: {x: -1.110223e-16, y: 6.938894e-18, z: 2.220446e-16}
+      rotation: {x: -1.0101142e-18, y: 3.4490758e-17, z: 3.4839603e-35, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_middle_ikHandle
+      parentName: gb_zombie_lf_hand_rig_grp
+      position: {x: -1.0416738, y: 1.6995555, z: -0.018299365}
+      rotation: {x: 1.8388069e-16, y: -9.7144515e-17, z: 8.326673e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_middleCtrl_space_grp
+      parentName: gb_zombie_lf_hand_rig_grp
+      position: {x: 4.6518345e-14, y: -2.220446e-16, z: 1.7229829e-12}
+      rotation: {x: 0, y: 1.7347235e-18, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_middle_ik_ctrl_frzGrp
+      parentName: gb_zombie_lf_middleCtrl_space_grp
+      position: {x: -1.0416738, y: 1.6995555, z: -0.018299365}
+      rotation: {x: -0.700237, y: -0.09832699, z: 0.09832699, w: 0.700237}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_middle_ik_ctrl
+      parentName: gb_zombie_lf_middle_ik_ctrl_frzGrp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -3.8220645e-18, y: 1.2697941e-32, z: -2.7755576e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_ring_ikHandle
+      parentName: gb_zombie_lf_hand_rig_grp
+      position: {x: -1.0313544, y: 1.6995302, z: -0.048769675}
+      rotation: {x: 5.89806e-17, y: -1.3877788e-17, z: -4.1633363e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_ringCtrl_space_grp
+      parentName: gb_zombie_lf_hand_rig_grp
+      position: {x: 4.6518345e-14, y: -2.220446e-16, z: 1.7229829e-12}
+      rotation: {x: 0, y: 1.7347235e-18, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_ring_ik_ctrl_frzGrp
+      parentName: gb_zombie_lf_ringCtrl_space_grp
+      position: {x: -1.0313544, y: 1.6995302, z: -0.048769675}
+      rotation: {x: -0.69918436, y: -0.10555243, z: 0.10555243, w: 0.69918436}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_ring_ik_ctrl
+      parentName: gb_zombie_lf_ring_ik_ctrl_frzGrp
+      position: {x: -5.551115e-17, y: -6.938894e-18, z: 2.220446e-16}
+      rotation: {x: -1.2246159e-16, y: 1.699496e-33, z: -1.3877788e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_pinky_ikHandle
+      parentName: gb_zombie_lf_hand_rig_grp
+      position: {x: -1.0104221, y: 1.6964961, z: -0.08627027}
+      rotation: {x: -1.8388069e-16, y: 2.0816682e-17, z: 1.3877789e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_pinkyCtrl_space_grp
+      parentName: gb_zombie_lf_hand_rig_grp
+      position: {x: 4.6518345e-14, y: -2.220446e-16, z: 1.7229829e-12}
+      rotation: {x: 0, y: 1.7347235e-18, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_pinky_ik_ctrl_frzGrp
+      parentName: gb_zombie_lf_pinkyCtrl_space_grp
+      position: {x: -1.0104221, y: 1.6964961, z: -0.08627027}
+      rotation: {x: -0.6824443, y: -0.18512124, z: 0.068790294, w: 0.70375276}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lf_pinky_ik_ctrl
+      parentName: gb_zombie_lf_pinky_ik_ctrl_frzGrp
+      position: {x: -1.6653345e-16, y: 2.7755576e-17, z: 0}
+      rotation: {x: -5.454107e-17, y: -1.2142468e-17, z: -6.622632e-34, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_lfHandCtrl_space_switch_grp
+      parentName: gb_zombie_rig_grp
+      position: {x: -0.8214125, y: 1.702427, z: -0.032477684}
+      rotation: {x: 0, y: 0.0135857565, z: -0, w: 0.99990773}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_hand_rig_grp
+      parentName: gb_zombie_rig_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_thumb_ikHandle
+      parentName: gb_zombie_rt_hand_rig_grp
+      position: {x: 0.9197811, y: 1.66942, z: 0.070624515}
+      rotation: {x: 1.5959456e-16, y: -8.326673e-17, z: 5.551115e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_thumbCtrl_space_grp
+      parentName: gb_zombie_rt_hand_rig_grp
+      position: {x: -0, y: -2.220446e-16, z: -8.368306e-15}
+      rotation: {x: -2.670209e-35, y: -3.469447e-18, z: -7.696353e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_thumb_ik_ctrl_frzGrp
+      parentName: gb_zombie_rt_thumbCtrl_space_grp
+      position: {x: 0.9197811, y: 1.66942, z: 0.070624515}
+      rotation: {x: 0.67757475, y: -0.20221895, z: 0.11154369, w: 0.6982536}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_thumb_ik_ctrl
+      parentName: gb_zombie_rt_thumb_ik_ctrl_frzGrp
+      position: {x: -0, y: -5.551115e-17, z: -2.220446e-16}
+      rotation: {x: -7.864822e-18, y: 5.782432e-18, z: -8.326673e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_index_ikHandle
+      parentName: gb_zombie_rt_hand_rig_grp
+      position: {x: 1.0315201, y: 1.69718, z: 0.019557318}
+      rotation: {x: -1.7087026e-16, y: 3.4694473e-17, z: 1.249001e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_indexCtrl_space_grp
+      parentName: gb_zombie_rt_hand_rig_grp
+      position: {x: -0, y: -2.220446e-16, z: -8.368306e-15}
+      rotation: {x: -2.670209e-35, y: -3.469447e-18, z: -7.696353e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_index_ik_ctrl_frzGrp
+      parentName: gb_zombie_rt_indexCtrl_space_grp
+      position: {x: 1.0315201, y: 1.69718, z: 0.019557318}
+      rotation: {x: 0.6974752, y: -0.11631156, z: -0.054870747, w: 0.70497465}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_index_ik_ctrl
+      parentName: gb_zombie_rt_index_ik_ctrl_frzGrp
+      position: {x: -1.110223e-16, y: 6.938894e-18, z: 2.220446e-16}
+      rotation: {x: -6.9276485e-19, y: -2.2678121e-17, z: -1.3877788e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_middle_ikHandle
+      parentName: gb_zombie_rt_hand_rig_grp
+      position: {x: 1.0416701, y: 1.69956, z: -0.018303681}
+      rotation: {x: -1.5439039e-16, y: 1.110223e-16, z: 4.1633363e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_middleCtrl_space_grp
+      parentName: gb_zombie_rt_hand_rig_grp
+      position: {x: -0, y: -2.220446e-16, z: -8.368306e-15}
+      rotation: {x: -2.670209e-35, y: -3.469447e-18, z: -7.696353e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_middle_ik_ctrl_frzGrp
+      parentName: gb_zombie_rt_middleCtrl_space_grp
+      position: {x: 1.0416701, y: 1.69956, z: -0.018303681}
+      rotation: {x: 0.700237, y: -0.09832699, z: -0.09832699, w: 0.700237}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_middle_ik_ctrl
+      parentName: gb_zombie_rt_middle_ik_ctrl_frzGrp
+      position: {x: -0, y: 0, z: 2.220446e-16}
+      rotation: {x: 0, y: -2.7755576e-17, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_ring_ikHandle
+      parentName: gb_zombie_rt_hand_rig_grp
+      position: {x: 1.0313501, y: 1.69953, z: -0.04877398}
+      rotation: {x: -8.326673e-17, y: 1.9428903e-16, z: 6.9388946e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_ringCtrl_space_grp
+      parentName: gb_zombie_rt_hand_rig_grp
+      position: {x: -0, y: -2.220446e-16, z: -8.368306e-15}
+      rotation: {x: -2.670209e-35, y: -3.469447e-18, z: -7.696353e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_ring_ik_ctrl_frzGrp
+      parentName: gb_zombie_rt_ringCtrl_space_grp
+      position: {x: 1.0313501, y: 1.69953, z: -0.04877398}
+      rotation: {x: 0.69918436, y: -0.10555243, z: -0.10555243, w: 0.69918436}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_ring_ik_ctrl
+      parentName: gb_zombie_rt_ring_ik_ctrl_frzGrp
+      position: {x: -0, y: 1.3877788e-17, z: 2.220446e-16}
+      rotation: {x: 6.532755e-17, y: -2.7755576e-17, z: 2.7755576e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_pinky_ikHandle
+      parentName: gb_zombie_rt_hand_rig_grp
+      position: {x: 1.0104201, y: 1.6965, z: -0.08627458}
+      rotation: {x: 5.030698e-17, y: -2.7755576e-17, z: -1.179612e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_pinkyCtrl_space_grp
+      parentName: gb_zombie_rt_hand_rig_grp
+      position: {x: -0, y: -2.220446e-16, z: -8.368306e-15}
+      rotation: {x: -2.670209e-35, y: -3.469447e-18, z: -7.696353e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_pinky_ik_ctrl_frzGrp
+      parentName: gb_zombie_rt_pinkyCtrl_space_grp
+      position: {x: 1.0104201, y: 1.6965, z: -0.08627458}
+      rotation: {x: 0.70375276, y: -0.068790294, z: -0.18512124, w: 0.6824443}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rt_pinky_ik_ctrl
+      parentName: gb_zombie_rt_pinky_ik_ctrl_frzGrp
+      position: {x: -1.110223e-16, y: 1.3877788e-17, z: 0}
+      rotation: {x: -1.2025114e-16, y: 1.562661e-17, z: 1.8791177e-33, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_zombie_rtHandCtrl_space_switch_grp
+      parentName: gb_zombie_rig_grp
+      position: {x: 0.8214121, y: 1.70243, z: -0.032481983}
+      rotation: {x: 0.99990773, y: -8.318877e-19, z: 0.0135857565, w: 6.122669e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Head_Group
+      parentName: Zombie_Master(Clone)
+      position: {x: -6.4430683e-16, y: 0, z: 1.5265567e-16}
+      rotation: {x: 5.551115e-17, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_neck_ctl
+      parentName: Head_Group
+      position: {x: -0, y: 1.8009125, z: -0.03036394}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_head_ctl
+      parentName: gb_face_neck_ctl
+      position: {x: 2.0300802e-17, y: 0.15582862, z: 0.009928036}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_L_mouth_ctl
+      parentName: gb_face_head_ctl
+      position: {x: -0.062809095, y: -0.06595351, z: 0.11281341}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_R_mouth_ctl
+      parentName: gb_face_head_ctl
+      position: {x: 0.06376757, y: -0.06595351, z: 0.11281341}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_jaw_ctl
+      parentName: gb_face_head_ctl
+      position: {x: -9.0718105e-18, y: -0.04806766, z: -0.006582645}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_L_brow_inner_ctl
+      parentName: gb_face_head_ctl
+      position: {x: -0.026569158, y: 0.05992361, z: 0.12646143}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_L_brow_outer_ctl
+      parentName: gb_face_head_ctl
+      position: {x: -0.047764778, y: 0.060137857, z: 0.12650406}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_R_brow_inner_ctl
+      parentName: gb_face_head_ctl
+      position: {x: 0.026860332, y: 0.060137857, z: 0.12650406}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_R_brow_outer_ctl
+      parentName: gb_face_head_ctl
+      position: {x: 0.047764778, y: 0.060137857, z: 0.12650406}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_L_cheek_ctl
+      parentName: gb_face_head_ctl
+      position: {x: -0.05085546, y: 0.0014966248, z: 0.12281291}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gb_face_R_cheek_ctl
+      parentName: gb_face_head_ctl
+      position: {x: 0.050114404, y: 0.0014966248, z: 0.12281291}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rt_foot_gib
+      parentName: Zombie_Master(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
