@@ -11,30 +11,44 @@ public class EnemyStateScript : MonoBehaviour
     public GameObject healthBarUI;
     public object bullet;
     public Animator animator;
-
+    public bool isAlive;
 
     // Start is called before the first frame update
     void Start()
     {
+        isAlive = true;
         animator = GetComponent<Animator>();
         health = maxHealth;
         slider.value = CalculateHealth();
-        animator.Play("spawn");
     }
 
     // Update is called once per frame
     void Update()
     {
         slider.value = CalculateHealth();
-        if(health < maxHealth)
+        if (health < maxHealth)
         {
             healthBarUI.SetActive(true);
         }
-
-        if(health <= 0)
+        //Debug.Log("health:"+ health);
+        //Debug.Log(isAlive);
+        if (isAlive)
         {
-            Destroy(gameObject);
+            if (health <= 0.0f)
+            {
+                //Debug.Log("Zombie is dead");
+                //animator.Play("death");//despawn dead bodies at the end of round in game state manager
+                death();
+            }
         }
+    }
+
+    void death()
+    {
+        isAlive = false;
+        animator.SetTrigger("dead");
+        Debug.Log("zombie is dead");
+       //animator.Play("death");
     }
 
     void OnCollisionEnter(Collision collisionInfo)
