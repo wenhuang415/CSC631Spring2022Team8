@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+using UnityEditor.Animations;
 public class EnemyStateScript : MonoBehaviour
 {
     public float health;
@@ -10,11 +10,16 @@ public class EnemyStateScript : MonoBehaviour
     public Slider slider;//hp ui
     public GameObject healthBarUI;
     public object bullet;
+    public Animator animator;
+
+
     // Start is called before the first frame update
     void Start()
     {
+        animator = GetComponent<Animator>();
         health = maxHealth;
         slider.value = CalculateHealth();
+        animator.Play("spawn");
     }
 
     // Update is called once per frame
@@ -31,6 +36,7 @@ public class EnemyStateScript : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
     void OnCollisionEnter(Collision collisionInfo)
     {
         Debug.Log("Touched " +collisionInfo.collider.name);
@@ -46,4 +52,6 @@ public class EnemyStateScript : MonoBehaviour
     {
         return health / maxHealth;
     }
+
+
 }
