@@ -13,6 +13,7 @@ public class EnemyBehaviour : MonoBehaviour
     public LayerMask whatIsGround, whatIsPlayer;
 
     public float health;
+    public Animator animator;
 
     //Patroling
     public Vector3 walkPoint;
@@ -30,6 +31,7 @@ public class EnemyBehaviour : MonoBehaviour
 
     private void Awake()
     {
+        animator = GetComponent<Animator>();
         player = GameObject.Find("XR Rig").transform;
         agent = GetComponent<NavMeshAgent>();
     }
@@ -85,9 +87,11 @@ public class EnemyBehaviour : MonoBehaviour
         if (!alreadyAttacked)
         {
             ///Attack code here
-            Rigidbody rb = Instantiate(projectile, transform.position + new Vector3(0, 1, 0), Quaternion.identity).GetComponent<Rigidbody>();
-            rb.AddForce(transform.forward * 32f, ForceMode.Impulse);
-            rb.AddForce(transform.up * -1f, ForceMode.Impulse);
+            animator.SetTrigger("attack");
+           
+            //Rigidbody rb = Instantiate(projectile, transform.position + new Vector3(0, 2, 0), Quaternion.identity).GetComponent<Rigidbody>();
+            //rb.AddForce(transform.forward * 32f, ForceMode.Impulse);
+            //rb.AddForce(transform.up * -12f, ForceMode.Impulse);
             ///End of attack code
 
             alreadyAttacked = true;
