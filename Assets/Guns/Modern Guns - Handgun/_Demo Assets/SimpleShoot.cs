@@ -54,7 +54,8 @@ public class SimpleShoot : MonoBehaviour
 
     public void triggerPull()
     {
-        gunAnimator.SetTrigger("Fire");
+        //gunAnimator.SetTrigger("Fire");
+        Shoot();
     }
 
 
