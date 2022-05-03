@@ -87,11 +87,11 @@ public class EnemyBehaviour : MonoBehaviour
         if (!alreadyAttacked)
         {
             ///Attack code here
-            animator.SetTrigger("attack");
+           // animator.SetTrigger("attack");
            
-            //Rigidbody rb = Instantiate(projectile, transform.position + new Vector3(0, 2, 0), Quaternion.identity).GetComponent<Rigidbody>();
-            //rb.AddForce(transform.forward * 32f, ForceMode.Impulse);
-            //rb.AddForce(transform.up * -12f, ForceMode.Impulse);
+            Rigidbody rb = Instantiate(projectile, transform.position + new Vector3(0, 2, 0), Quaternion.identity).GetComponent<Rigidbody>();
+            rb.AddForce(transform.forward * 32f, ForceMode.Impulse);
+            rb.AddForce(transform.up * -12f, ForceMode.Impulse);
             ///End of attack code
 
             alreadyAttacked = true;
