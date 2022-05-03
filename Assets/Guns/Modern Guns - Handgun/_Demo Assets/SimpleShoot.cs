@@ -24,6 +24,10 @@ public class SimpleShoot : MonoBehaviour
     //public Magazine magazine;
     public XRBaseInteractor socketInteractor;
     //private bool hasSlide = true;
+    public AudioSource source;
+    public AudioClip fireSound;
+    public bool fullauto;
+    public bool stopFire;
 
     public void AddMagazine(XRBaseInteractable interactable)
     {
@@ -52,16 +56,31 @@ public class SimpleShoot : MonoBehaviour
         //socketInteractor.onSelectExited.AddListener(RemoveMagazine);
     }
 
+    public void setStopfire(){
+        stopFire = false;
+    }
+    public void startStopFire(){
+        stopFire = true;
+    }
+
     public void triggerPull()
     {
         //gunAnimator.SetTrigger("Fire");
-        Shoot();
+        if (fullauto){
+            while(stopFire){
+                Shoot();
+            }
+        }
+        else{
+            Shoot();
+        }
     }
 
 
     //This function creates the bullet behavior
     void Shoot()
     {
+        source.PlayOneShot(fireSound);
         //magazine.numOfBullet--;
         if (muzzleFlashPrefab)
         {
