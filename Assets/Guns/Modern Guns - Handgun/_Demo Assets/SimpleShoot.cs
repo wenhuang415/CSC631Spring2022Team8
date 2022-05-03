@@ -31,6 +31,7 @@ public class SimpleShoot : MonoBehaviour
 
     private float autoFireSpeed = 0.5f;
     private float nextFire = 0.0f;
+    private bool fire;
 
     public void AddMagazine(XRBaseInteractable interactable)
     {
@@ -59,6 +60,19 @@ public class SimpleShoot : MonoBehaviour
         //socketInteractor.onSelectExited.AddListener(RemoveMagazine);
     }
 
+    void Update(){
+        if (fullauto == true){
+            if (stopFire ==true && nextFire < Time.time){
+                    nextFire = Time.time + autoFireSpeed;
+                    Shoot();
+            }
+        }
+
+        else if(stopFire == true){
+            Shoot();
+        }
+    }
+
     public void setStopfire(){
         stopFire = false;
     }
@@ -66,14 +80,24 @@ public class SimpleShoot : MonoBehaviour
         stopFire = true;
     }
 
+    public void startFire(){
+        fire = true;
+    }
+
+    public void stopFire(){
+        fire = false;
+    }
+
     public void triggerPull()
     {
         //gunAnimator.SetTrigger("Fire");
         if (fullauto){
-            while(stopFire){
-                if (nextFire < Time.time){
+            int x = 0;
+            while(x < 3){
+                if (nextFire > Time.time){
                     nextFire = Time.time + autoFireSpeed;
                     Shoot();
+                    x++;
                 }
             }
         }
