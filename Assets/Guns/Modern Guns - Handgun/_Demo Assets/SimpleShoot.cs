@@ -29,6 +29,9 @@ public class SimpleShoot : MonoBehaviour
     public bool fullauto;
     public bool stopFire;
 
+    private float autoFireSpeed = 0.5f;
+    private float nextFire = 0.0f;
+
     public void AddMagazine(XRBaseInteractable interactable)
     {
         //magazine = interactable.GetComponent<Magazine>();
@@ -68,7 +71,10 @@ public class SimpleShoot : MonoBehaviour
         //gunAnimator.SetTrigger("Fire");
         if (fullauto){
             while(stopFire){
-                Shoot();
+                if (nextFire < Time.time){
+                    nextFire = Time.time + autoFireSpeed;
+                    Shoot();
+                }
             }
         }
         else{
