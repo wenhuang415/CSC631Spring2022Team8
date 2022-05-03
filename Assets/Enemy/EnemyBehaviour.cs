@@ -30,7 +30,7 @@ public class EnemyBehaviour : MonoBehaviour
 
     private void Awake()
     {
-        player = GameObject.Find("enemyTemp").transform;
+        player = GameObject.Find("XR Rig").transform;
         agent = GetComponent<NavMeshAgent>();
     }
 
