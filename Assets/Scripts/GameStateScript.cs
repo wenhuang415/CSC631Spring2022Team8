@@ -46,7 +46,7 @@ public class GameStateScript : MonoBehaviour
             if(numEnemiesSpawned!=numEnemiesToSpawn){
                 for(numEnemiesSpawned = 0;numEnemiesSpawned < numEnemiesToSpawn; numEnemiesSpawned++){
                     
-                    Debug.Log("Spawning enemy # "+numEnemiesSpawned);
+                    //Debug.Log("Spawning enemy # "+numEnemiesSpawned);
                     SpawnEnemy();
                 }
             }
@@ -87,7 +87,7 @@ public class GameStateScript : MonoBehaviour
                 break;
 
         }
-        Debug.Log("Spawning at location " + spawnLocation);
+        //Debug.Log("Spawning at location " + spawnLocation);
         Instantiate(Enemy, vector, Quaternion.identity);
     }
 }
