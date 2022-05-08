@@ -1242,13 +1242,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   defaultRooms:
-  - Name: Test
+  - Name: Room1
     sceneIndex: 1
-    maxPlayer: 2
-  - Name: Test2
+    maxPlayer: 4
+  - Name: Room2
     sceneIndex: 1
-    maxPlayer: 3
-  - Name: Test 3
+    maxPlayer: 4
+  - Name: Room3
     sceneIndex: 1
     maxPlayer: 4
   roomUI: {fileID: 1979810268}
