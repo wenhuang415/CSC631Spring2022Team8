@@ -12,7 +12,6 @@ public class EnemyBehaviour : MonoBehaviour
 
     public LayerMask whatIsGround, whatIsPlayer;
 
-    public float health;
     public Animator animator;
 
     //Patroling
@@ -109,12 +108,6 @@ public class EnemyBehaviour : MonoBehaviour
         alreadyAttacked = false;
     }
 
-    public void TakeDamage(int damage)
-    {
-        health -= damage;
-
-        if (health <= 0) Invoke(nameof(DestroyEnemy), 0.5f);
-    }
     private void DestroyEnemy()
     {
         Destroy(gameObject);
