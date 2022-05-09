@@ -9,7 +9,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1389599212272328966, guid: 4e1f262480e2ed548aefc09aadbeeba7, type: 3}
       propertyPath: m_Name
-      value: Zombie_Master
+      value: Zombie_Master Variant
       objectReference: {fileID: 0}
     - target: {fileID: 2671620600110338837, guid: 4e1f262480e2ed548aefc09aadbeeba7, type: 3}
       propertyPath: m_RootOrder
@@ -108,12 +108,13 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1
   health: 10
+  animator: {fileID: 0}
   walkPoint: {x: 0, y: 0, z: 0}
   walkPointRange: 5
   timeBetweenAttacks: 0.5
   projectile: {fileID: 5675564253417765984, guid: bbe3fc0d48345024ebe7842938564131, type: 3}
-  sightRange: 10
-  attackRange: 8
+  sightRange: 200
+  attackRange: 3
   playerInSightRange: 0
   playerInAttackRange: 0
 --- !u!195 &8296172668760394441
@@ -151,3 +152,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 10
+  maxHealth: 0
+  slider: {fileID: 0}
+  healthBarUI: {fileID: 0}
+  animator: {fileID: 0}
+  isAlive: 0
