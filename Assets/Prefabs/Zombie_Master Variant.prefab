@@ -151,9 +151,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 072635f0cc3355648ab86547eac08e15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 10
-  maxHealth: 0
+  health: 4
+  maxHealth: 4
   slider: {fileID: 0}
   healthBarUI: {fileID: 0}
   animator: {fileID: 0}
-  isAlive: 0
+  isAlive: 1
