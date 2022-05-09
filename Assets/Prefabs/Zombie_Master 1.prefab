@@ -661,7 +661,6 @@ MonoBehaviour:
   attackRange: 3
   playerInSightRange: 0
   playerInAttackRange: 0
-  script: {fileID: 1848279481253295528}
 --- !u!114 &1848279481253295528
 MonoBehaviour:
   m_ObjectHideFlags: 0
