@@ -35,7 +35,8 @@ public class NetworkPlayer : MonoBehaviour
             {
                 item.enabled = false;
             }
-        }       
+        }
+        
     }
 
     // Update is called once per frame

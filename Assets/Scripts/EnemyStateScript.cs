@@ -31,12 +31,13 @@ public class EnemyStateScript : MonoBehaviour
             healthBarUI.SetActive(true);
         }
         //Debug.Log("health:"+ health);
-        //Debug.Log(isAlive);
+       //Debug.Log(isAlive);
         if (isAlive)
         {
+            Debug.Log("health: " + health);
             if (health <= 0.0f)
             {
-                //Debug.Log("Zombie is dead");
+                Debug.Log("Zombie is dead");
                 //animator.Play("death");//despawn dead bodies at the end of round in game state manager
                 death();
             }
