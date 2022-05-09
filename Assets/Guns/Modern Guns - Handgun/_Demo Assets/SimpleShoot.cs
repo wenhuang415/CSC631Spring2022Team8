@@ -24,6 +24,9 @@ public class SimpleShoot : MonoBehaviour
     //public Magazine magazine;
     public XRBaseInteractor socketInteractor;
     //private bool hasSlide = true;
+    public AudioSource source;
+    public AudioClip fireSound;
+
 
     public void AddMagazine(XRBaseInteractable interactable)
     {
@@ -62,6 +65,7 @@ public class SimpleShoot : MonoBehaviour
     //This function creates the bullet behavior
     void Shoot()
     {
+        source.PlayOneShot(fireSound);
         //magazine.numOfBullet--;
         if (muzzleFlashPrefab)
         {

@@ -31,10 +31,10 @@ public class EnemyStateScript : MonoBehaviour
             healthBarUI.SetActive(true);
         }
         //Debug.Log("health:"+ health);
-       //Debug.Log(isAlive);
+        //Debug.Log(isAlive);
         if (isAlive)
         {
-            Debug.Log("health: " + health);
+            //Debug.Log("health: " + health);
             if (health <= 0.0f)
             {
                 Debug.Log("Zombie is dead");
@@ -48,8 +48,8 @@ public class EnemyStateScript : MonoBehaviour
     {
         isAlive = false;
         animator.SetTrigger("dead");
-        Debug.Log("zombie is dead");
-       //animator.Play("death");
+        //Debug.Log("zombie is dead");
+        //animator.Play("death");
     }
 
     void OnCollisionEnter(Collision collisionInfo)
