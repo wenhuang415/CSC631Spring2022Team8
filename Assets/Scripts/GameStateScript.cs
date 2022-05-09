@@ -17,6 +17,9 @@ public class GameStateScript : MonoBehaviour
     public int numEnemiesDefeated=0;
 
     public Object Enemy;
+
+    public AudioSource gameMusic;
+    public AudioSource shopMusic;
     
 
     // Start is called before the first frame update
@@ -25,6 +28,8 @@ public class GameStateScript : MonoBehaviour
         // gameState = 0;
         // shopTime = 30;//time in seconds
         Debug.Log("Shop is open for " + shopTime + " seconds" );
+        gameMusic.Play();
+        shopMusic.Play();
     }
 
     // Update is called once per frame
@@ -32,6 +37,8 @@ public class GameStateScript : MonoBehaviour
     {
         if (gameState == 0)//Time to shop!
         {
+            gameMusic.Pause();
+            shopMusic.UnPause();
             shopTime = shopTime - Time.deltaTime;
             //Debug.Log("Shop is open for " + shopTime + "seconds" );
             // Debug.Log("Shop is open");
@@ -43,10 +50,12 @@ public class GameStateScript : MonoBehaviour
         }
         if (gameState == 1)//Time to Fight!
         {
+            gameMusic.UnPause();
+            shopMusic.Pause();
             if(numEnemiesSpawned!=numEnemiesToSpawn){
                 for(numEnemiesSpawned = 0;numEnemiesSpawned < numEnemiesToSpawn; numEnemiesSpawned++){
                     
-                    Debug.Log("Spawning enemy # "+numEnemiesSpawned);
+                    //Debug.Log("Spawning enemy # "+numEnemiesSpawned);
                     SpawnEnemy();
                 }
             }
@@ -87,7 +96,7 @@ public class GameStateScript : MonoBehaviour
                 break;
 
         }
-        Debug.Log("Spawning at location " + spawnLocation);
+        //Debug.Log("Spawning at location " + spawnLocation);
         Instantiate(Enemy, vector, Quaternion.identity);
     }
 }

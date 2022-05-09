@@ -13055,7 +13055,7 @@ Animator:
   m_GameObject: {fileID: 7258596536072752313}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: f6863227f0b9042ca9c8a77f55427062, type: 3}
-  m_Controller: {fileID: 9100000, guid: 16cb2f0ed3680f845be0671ac619b68e, type: 2}
+  m_Controller: {fileID: 9100000, guid: 4d363a2a2a996034d98178425e009d41, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -13094,6 +13094,8 @@ MonoBehaviour:
   maxHealth: 3
   slider: {fileID: 1700770772181852407}
   healthBarUI: {fileID: 1700770773381366833}
+  animator: {fileID: 0}
+  isAlive: 0
 --- !u!114 &1700770772013874584
 MonoBehaviour:
   m_ObjectHideFlags: 0

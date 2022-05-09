@@ -34,9 +34,10 @@ public class EnemyStateScript : MonoBehaviour
         //Debug.Log(isAlive);
         if (isAlive)
         {
+            //Debug.Log("health: " + health);
             if (health <= 0.0f)
             {
-                //Debug.Log("Zombie is dead");
+                Debug.Log("Zombie is dead");
                 //animator.Play("death");//despawn dead bodies at the end of round in game state manager
                 death();
             }
@@ -47,8 +48,8 @@ public class EnemyStateScript : MonoBehaviour
     {
         isAlive = false;
         animator.SetTrigger("dead");
-        Debug.Log("zombie is dead");
-       //animator.Play("death");
+        //Debug.Log("zombie is dead");
+        //animator.Play("death");
     }
 
     void OnCollisionEnter(Collision collisionInfo)

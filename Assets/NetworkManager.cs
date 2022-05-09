@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Photon.Pun;
 using Photon.Realtime;
-using UnityEngine.SceneManagement;
+
 
 [System.Serializable]
 public class DefaultRoom
@@ -18,12 +18,17 @@ public class NetworkManager : MonoBehaviourPunCallbacks
     public List<DefaultRoom> defaultRooms;
     public GameObject roomUI;
 
+    private void Start()
+    {
+        ConnectToServer();
+    }
+
     // Method to connect to Photon server
     // Photon AppId:0a5d50a7-3e1e-4a12-8f96-62db1f68566a
     public void ConnectToServer()
     {
         PhotonNetwork.ConnectUsingSettings();
-        Debug.Log("Connecting to Server...");
+        Debug.Log("Trying to connect to server...");
     }
 
     //function will be called when connected to master
@@ -31,9 +36,16 @@ public class NetworkManager : MonoBehaviourPunCallbacks
     {
         Debug.Log("Connected to Server.");
         base.OnConnectedToMaster();
-        PhotonNetwork.JoinLobby();
+
+        RoomOptions roomOptions = new RoomOptions();
+        roomOptions.MaxPlayers = 4;
+        roomOptions.IsVisible = true;
+        roomOptions.IsOpen = true;
+
+        PhotonNetwork.JoinOrCreateRoom("Room 1",roomOptions,TypedLobby.Default);
     }
 
+    /*
     public override void OnJoinedLobby()
     {
         base.OnJoinedLobby();
@@ -58,6 +70,8 @@ public class NetworkManager : MonoBehaviourPunCallbacks
         //connect to the same room in order to share data b/t players
         PhotonNetwork.JoinOrCreateRoom(roomSettings.Name, roomOptions, TypedLobby.Default);
     }
+
+    */
 
     //function is called when player successfully joined a room
     public override void OnJoinedRoom()
