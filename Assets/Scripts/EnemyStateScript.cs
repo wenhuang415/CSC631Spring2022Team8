@@ -60,7 +60,6 @@ public class EnemyStateScript : MonoBehaviour
             health--;//reduce health by one for each hit for now
             //health-=collisionInfo.collider.damage;//need a reference to the damage values, maybe a different tag for each weapon? or a matrix with damage values and tags?
         }
-
     }
 
     float CalculateHealth()
