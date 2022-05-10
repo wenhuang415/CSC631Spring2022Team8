@@ -1,14 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Photon.Pun;
+using Photon.Realtime;
 
-public class GameStateScript : MonoBehaviour
+public class GameStateScript : MonoBehaviourPunCallbacks
 {
     public int gameState;
     //0 for shop mode
     //1 for spawn mode
 
     public float shopTime;
+
+    public int numPlayersAlive = 1;
 
     public int numEnemiesToSpawn=5;
 
@@ -35,6 +39,11 @@ public class GameStateScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(numPlayersAlive < 1)
+        {
+            PhotonNetwork.LoadLevel(1);
+        }
+
         if (gameState == 0)//Time to shop!
         {
             gameMusic.Pause();

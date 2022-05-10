@@ -59,11 +59,12 @@ public class PlayerHealth : MonoBehaviour
     }
     
     void teleport(Vector3 vector){
-        
+        script.numPlayersAlive--;
         transform.position=vector;
     }
 
     void respawn(){
+        script.numPlayersAlive++;
         health=maxHealth;
         isAlive=true;
         Vector3 vector = new Vector3(13f,6f,7f);
