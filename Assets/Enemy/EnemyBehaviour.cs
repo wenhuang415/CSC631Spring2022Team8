@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Timers;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -11,7 +12,7 @@ public class EnemyBehaviour : MonoBehaviour
 
     public LayerMask whatIsGround, whatIsPlayer;
 
-    public float health;
+    public Animator animator;
 
     //Patroling
     public Vector3 walkPoint;
@@ -27,9 +28,13 @@ public class EnemyBehaviour : MonoBehaviour
     public float sightRange, attackRange;
     public bool playerInSightRange, playerInAttackRange;
 
+    //Scripts
+    public EnemyStateScript script;
+
     private void Awake()
     {
-        player = GameObject.Find("enemyTemp").transform;
+        animator = GetComponent<Animator>();
+        player = GameObject.Find("XR Rig").transform;
         agent = GetComponent<NavMeshAgent>();
     }
 
@@ -39,9 +44,12 @@ public class EnemyBehaviour : MonoBehaviour
         playerInSightRange = Physics.CheckSphere(transform.position, sightRange, whatIsPlayer);
         playerInAttackRange = Physics.CheckSphere(transform.position, attackRange, whatIsPlayer);
 
-        if (!playerInSightRange && !playerInAttackRange) Patroling();
-        if (playerInSightRange && !playerInAttackRange) ChasePlayer();
-        if (playerInAttackRange && playerInSightRange) AttackPlayer();
+        if (script.isAlive == true)
+        {
+            if (!playerInSightRange && !playerInAttackRange) Patroling();
+            if (playerInSightRange && !playerInAttackRange) ChasePlayer();
+            if (playerInAttackRange && playerInSightRange) AttackPlayer();
+        }
     }
 
     private void Patroling()
@@ -84,9 +92,11 @@ public class EnemyBehaviour : MonoBehaviour
         if (!alreadyAttacked)
         {
             ///Attack code here
-            Rigidbody rb = Instantiate(projectile, transform.position + new Vector3(0, 1, 0), Quaternion.identity).GetComponent<Rigidbody>();
+           // animator.SetTrigger("attack");
+           
+            Rigidbody rb = Instantiate(projectile, transform.position + new Vector3(0, 2, 0), Quaternion.identity).GetComponent<Rigidbody>();
             rb.AddForce(transform.forward * 32f, ForceMode.Impulse);
-            rb.AddForce(transform.up * -1f, ForceMode.Impulse);
+            rb.AddForce(transform.up * -12f, ForceMode.Impulse);
             ///End of attack code
 
             alreadyAttacked = true;
@@ -98,12 +108,6 @@ public class EnemyBehaviour : MonoBehaviour
         alreadyAttacked = false;
     }
 
-    public void TakeDamage(int damage)
-    {
-        health -= damage;
-
-        if (health <= 0) Invoke(nameof(DestroyEnemy), 0.5f);
-    }
     private void DestroyEnemy()
     {
         Destroy(gameObject);

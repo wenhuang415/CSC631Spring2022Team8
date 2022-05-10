@@ -6,6 +6,7 @@ TagManager:
   tags:
   - PMag
   - Bullet
+  - Health Pickup
   layers:
   - Default
   - TransparentFX
@@ -13,13 +14,12 @@ TagManager:
   - Map
   - Water
   - UI
-
-  - Grab
-  - Grab Interactable
   - Player
-  - whatIsBullet
-  - whatIsPlayer
-  - whatIsEnemy
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 

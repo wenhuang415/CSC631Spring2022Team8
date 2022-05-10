@@ -17,25 +17,31 @@ public class SimpleShoot : MonoBehaviour
     [SerializeField] private Transform casingExitLocation;
 
     [Header("Settings")]
-    [Tooltip("Specify time to destory the casing object")] [SerializeField] private float destroyTimer = 2f;
-    [Tooltip("Bullet Speed")] [SerializeField] private float shotPower = 500f;
-    [Tooltip("Casing Ejection Speed")] [SerializeField] private float ejectPower = 150f;
+    [Tooltip("Specify time to destory the casing object")][SerializeField] private float destroyTimer = 2f;
+    [Tooltip("Bullet Speed")][SerializeField] private float shotPower = 500f;
+    [Tooltip("Casing Ejection Speed")][SerializeField] private float ejectPower = 150f;
 
-    public Magazine magazine;
+    //public Magazine magazine;
     public XRBaseInteractor socketInteractor;
-    private bool hasSlide = true;
+    //private bool hasSlide = true;
+    public AudioSource source;
+    public AudioClip fireSound;
 
-    public void AddMagazine(XRBaseInteractable interactable){
-        magazine = interactable.GetComponent<Magazine>();
-        hasSlide = false;
+
+    public void AddMagazine(XRBaseInteractable interactable)
+    {
+        //magazine = interactable.GetComponent<Magazine>();
+        //hasSlide = false;
     }
 
-    public void RemoveMagazine(XRBaseInteractable interactable){
-        magazine = null;
+    public void RemoveMagazine(XRBaseInteractable interactable)
+    {
+        // magazine = null;
     }
 
-    public void Slide(){
-        hasSlide = true;
+    public void Slide()
+    {
+        //hasSlide = true;
     }
 
     void Start()
@@ -45,22 +51,22 @@ public class SimpleShoot : MonoBehaviour
 
         if (gunAnimator == null)
             gunAnimator = GetComponentInChildren<Animator>();
-        socketInteractor.onSelectEntered.AddListener(AddMagazine);
-        socketInteractor.onSelectExited.AddListener(RemoveMagazine);
+        //socketInteractor.onSelectEntered.AddListener(AddMagazine);
+        //socketInteractor.onSelectExited.AddListener(RemoveMagazine);
     }
 
     public void triggerPull()
     {
-        if(magazine && magazine.numOfBullet > 0 && hasSlide){
-            gunAnimator.SetTrigger("Fire");
-        }
+        //gunAnimator.SetTrigger("Fire");
+        Shoot();
     }
 
 
     //This function creates the bullet behavior
     void Shoot()
     {
-        magazine.numOfBullet--;
+        source.PlayOneShot(fireSound);
+        //magazine.numOfBullet--;
         if (muzzleFlashPrefab)
         {
             //Create the muzzle flash

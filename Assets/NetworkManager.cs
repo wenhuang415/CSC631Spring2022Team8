@@ -4,20 +4,31 @@ using UnityEngine;
 using Photon.Pun;
 using Photon.Realtime;
 
+
+[System.Serializable]
+public class DefaultRoom
+{
+    public string Name;
+    public int sceneIndex;
+    public int maxPlayer;
+
+}
 public class NetworkManager : MonoBehaviourPunCallbacks
 {
-    // Start is called before the first frame update
-    void Start()
+    //public List<DefaultRoom> defaultRooms;
+    //public GameObject roomUI;
+
+    private void Start()
     {
         ConnectToServer();
     }
 
     // Method to connect to Photon server
     // Photon AppId:0a5d50a7-3e1e-4a12-8f96-62db1f68566a
-    void ConnectToServer()
+    public void ConnectToServer()
     {
         PhotonNetwork.ConnectUsingSettings();
-        Debug.Log("Connecting to Server...");
+        Debug.Log("Trying to connect to server...");
     }
 
     //function will be called when connected to master
@@ -26,15 +37,41 @@ public class NetworkManager : MonoBehaviourPunCallbacks
         Debug.Log("Connected to Server.");
         base.OnConnectedToMaster();
 
-        //Room settings
         RoomOptions roomOptions = new RoomOptions();
         roomOptions.MaxPlayers = 4;
         roomOptions.IsVisible = true;
         roomOptions.IsOpen = true;
 
-        //connect to the same room in order to share data b/t players
-        PhotonNetwork.JoinOrCreateRoom("Room 1", roomOptions, TypedLobby.Default);
+        PhotonNetwork.JoinOrCreateRoom("Room 1",roomOptions,TypedLobby.Default);
     }
+
+    /*
+    public override void OnJoinedLobby()
+    {
+        base.OnJoinedLobby();
+        Debug.Log("Joined the Lobby");
+        roomUI.SetActive(true);
+    }
+
+    public void InitializeRoom(int defaultRoomIndex)
+    {
+        //Room settings
+        DefaultRoom roomSettings = defaultRooms[defaultRoomIndex];
+
+        //load scene
+        PhotonNetwork.LoadLevel(roomSettings.sceneIndex);
+
+        //create room
+        RoomOptions roomOptions = new RoomOptions();
+        roomOptions.MaxPlayers = (byte)roomSettings.maxPlayer;
+        roomOptions.IsVisible = true;
+        roomOptions.IsOpen = true;
+
+        //connect to the same room in order to share data b/t players
+        PhotonNetwork.JoinOrCreateRoom(roomSettings.Name, roomOptions, TypedLobby.Default);
+    }
+
+    */
 
     //function is called when player successfully joined a room
     public override void OnJoinedRoom()

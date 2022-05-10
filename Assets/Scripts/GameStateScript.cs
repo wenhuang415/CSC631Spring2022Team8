@@ -10,9 +10,16 @@ public class GameStateScript : MonoBehaviour
 
     public float shopTime;
 
-    public int EnemnyCount;
+    public int numEnemiesToSpawn=5;
+
+    public int numEnemiesSpawned=0;
+
+    public int numEnemiesDefeated=0;
 
     public Object Enemy;
+
+    public AudioSource gameMusic;
+    public AudioSource shopMusic;
     
 
     // Start is called before the first frame update
@@ -21,34 +28,55 @@ public class GameStateScript : MonoBehaviour
         // gameState = 0;
         // shopTime = 30;//time in seconds
         Debug.Log("Shop is open for " + shopTime + " seconds" );
+        gameMusic.Play();
+        shopMusic.Play();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (gameState == 0)
+        if (gameState == 0)//Time to shop!
         {
+            gameMusic.Pause();
+            shopMusic.UnPause();
             shopTime = shopTime - Time.deltaTime;
             //Debug.Log("Shop is open for " + shopTime + "seconds" );
+            // Debug.Log("Shop is open");
             if (shopTime <= 0)
             {
                 gameState = 1;
+                Debug.Log("gamestate: "+gameState);
             }
         }
-        else if (gameState == 1)
+        if (gameState == 1)//Time to Fight!
         {
-            for(int i = 0;i <EnemnyCount; i++){
-                SpawnEnemies();
+            gameMusic.UnPause();
+            shopMusic.Pause();
+            if(numEnemiesSpawned!=numEnemiesToSpawn){
+                for(numEnemiesSpawned = 0;numEnemiesSpawned < numEnemiesToSpawn; numEnemiesSpawned++){
+                    
+                    //Debug.Log("Spawning enemy # "+numEnemiesSpawned);
+                    SpawnEnemy();
+                }
             }
-            gameState = 0;//just spawn 1 
-            shopTime = 10;//reset shop time
+            
+            if(numEnemiesDefeated==numEnemiesToSpawn){
+                gameState = 0;
+                shopTime = 5;//reset shop time. TEST VALUE
+                //shopTime = 30;//reset shop time.
+                numEnemiesToSpawn+=5;//add more enemies
+                numEnemiesDefeated=0;//reset kill count
+                numEnemiesSpawned=0;//reset spawn count
+                Debug.Log("Shop is open");
+            }
         }
+
     }
 
-    void SpawnEnemies()
+    void SpawnEnemy()
     {
 
-        int spawnLocation=Random.Range(0,3);//each int represents a different location
+        int spawnLocation=Random.Range(0,4);//each int represents a different location
         Vector3 vector = new Vector3(0,0,0);
 
         switch(spawnLocation){
@@ -68,7 +96,7 @@ public class GameStateScript : MonoBehaviour
                 break;
 
         }
-        Debug.Log("Spawning at location " + spawnLocation);
+        //Debug.Log("Spawning at location " + spawnLocation);
         Instantiate(Enemy, vector, Quaternion.identity);
     }
 }
