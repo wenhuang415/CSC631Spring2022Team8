@@ -15,8 +15,8 @@ public class DefaultRoom
 }
 public class NetworkManager : MonoBehaviourPunCallbacks
 {
-    public List<DefaultRoom> defaultRooms;
-    public GameObject roomUI;
+    //public List<DefaultRoom> defaultRooms;
+    //public GameObject roomUI;
 
     private void Start()
     {
