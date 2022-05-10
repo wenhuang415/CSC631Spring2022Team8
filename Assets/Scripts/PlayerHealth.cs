@@ -9,6 +9,7 @@ public class PlayerHealth : MonoBehaviour
     public float maxHealth;
 
     public bool isAlive;
+    public GameStateScript script;
 
     // Start is called before the first frame update
     void Start()
@@ -21,10 +22,13 @@ public class PlayerHealth : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(health<0 && isAlive){
-            Vector3 vector = new Vector3(18f,22f,12f);
+        if(health<0 && isAlive){//death
+            Vector3 vector = new Vector3(18f,22f,12.5f);
             teleport(vector);
             isAlive=false;
+        }
+        if((script.gameState==0) && !isAlive){//respawn
+            respawn();
         }
     }
     void OnCollisionEnter(Collision collisionInfo)
@@ -55,11 +59,12 @@ public class PlayerHealth : MonoBehaviour
     }
     
     void teleport(Vector3 vector){
-        //Vector3 vector = new Vector3(17f,21f,11f);
+        
         transform.position=vector;
     }
 
     void respawn(){
+        health=maxHealth;
         isAlive=true;
         Vector3 vector = new Vector3(13f,6f,7f);
         teleport(vector);
