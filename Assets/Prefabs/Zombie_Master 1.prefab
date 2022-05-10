@@ -679,6 +679,7 @@ MonoBehaviour:
   healthBarUI: {fileID: 2971611355849644382}
   animator: {fileID: 0}
   isAlive: 1
+  loot: {fileID: 790362954103792885, guid: c72f425ff8953c640bc38ad951d84827, type: 3}
 --- !u!1 &347180992392146602
 GameObject:
   m_ObjectHideFlags: 0

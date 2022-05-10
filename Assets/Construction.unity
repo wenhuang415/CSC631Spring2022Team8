@@ -86567,6 +86567,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 2120478988}
+    - target: {fileID: 811282481833602505, guid: 1ffa55d2d05b10449a622ce9a8622645, type: 3}
+      propertyPath: loot
+      value: 
+      objectReference: {fileID: 790362954103792885, guid: c72f425ff8953c640bc38ad951d84827, type: 3}
     - target: {fileID: 1597028818855042821, guid: 1ffa55d2d05b10449a622ce9a8622645, type: 3}
       propertyPath: m_Name
       value: Zombie_Master
@@ -86743,6 +86747,39 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6a027da6713e5d24cb2f8cc68bdf842a, type: 3}
+--- !u!1 &2932010045167474347 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2932010047200309514, guid: 6a027da6713e5d24cb2f8cc68bdf842a, type: 3}
+  m_PrefabInstance: {fileID: 2932010045167474346}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2932010045167474348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2932010045167474347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6108ada7116ee94e9b45a4494dcb2bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 10
+  maxHealth: 10
+--- !u!136 &2932010045167474349
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2932010045167474347}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &8173260605005361650
 PrefabInstance:
   m_ObjectHideFlags: 0

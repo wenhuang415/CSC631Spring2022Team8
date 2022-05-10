@@ -13,6 +13,8 @@ public class EnemyStateScript : MonoBehaviour
     public Animator animator;
     public bool isAlive;
 
+    public GameObject loot;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -48,8 +50,9 @@ public class EnemyStateScript : MonoBehaviour
     {
         isAlive = false;
         animator.SetTrigger("dead");
-        //Debug.Log("zombie is dead");
+        Debug.Log("zombie is dead");
         //animator.Play("death");
+        spawnLoot();
     }
 
     void OnCollisionEnter(Collision collisionInfo)
@@ -67,5 +70,19 @@ public class EnemyStateScript : MonoBehaviour
         return health / maxHealth;
     }
 
+    void spawnLoot(){
+        
+        Vector3 vector = transform.position;
+        vector.y +=1.0f;
 
+        int rand = Random.Range(0,1);
+        switch (rand){
+            case 0: 
+                Instantiate(loot, vector, Quaternion.identity);
+                break;
+            default:
+                break;
+
+        }
+    }
 }
