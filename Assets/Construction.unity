@@ -86570,7 +86570,7 @@ PrefabInstance:
     - target: {fileID: 811282481833602505, guid: 1ffa55d2d05b10449a622ce9a8622645, type: 3}
       propertyPath: loot
       value: 
-      objectReference: {fileID: 790362954103792885, guid: c72f425ff8953c640bc38ad951d84827, type: 3}
+      objectReference: {fileID: 7344138784396843512, guid: 85bdeb5ae9287a3449f968283bec0a21, type: 3}
     - target: {fileID: 1597028818855042821, guid: 1ffa55d2d05b10449a622ce9a8622645, type: 3}
       propertyPath: m_Name
       value: Zombie_Master
