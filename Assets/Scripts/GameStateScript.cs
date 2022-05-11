@@ -112,6 +112,7 @@ public class GameStateScript : MonoBehaviourPunCallbacks
     }
 
     public void AnotherOneBitesTheDust(){
+        Debug.Log("Another Bites the Dust");
         numEnemiesDefeated++;
     }
 }
