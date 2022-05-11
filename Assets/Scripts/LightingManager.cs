@@ -3,6 +3,9 @@ using UnityEngine;
 [ExecuteAlways]
 public class LightingManager : MonoBehaviour
 {
+    public Material day;
+    public Material night;
+
     public GameObject gameStateManager;
     private GameStateScript gSM;
     //gameState = gameStateScript.gameState
@@ -15,6 +18,7 @@ public class LightingManager : MonoBehaviour
 
     private void Start(){
         gSM = gameStateManager.GetComponent<GameStateScript>();
+        
     }
     private void Update()
     {
@@ -25,11 +29,15 @@ public class LightingManager : MonoBehaviour
         {
             //(Replace with a reference to the game time)
             if(gSM.gameState == 1 && TimeOfDay != 0){
+                RenderSettings.skybox = night;
+                DirectionalLight.gameObject.SetActive(true);
                 TimeOfDay += daySpeed;
                 TimeOfDay %= 24; //Modulus to ensure always between 0-24
                 UpdateLighting(TimeOfDay / 24f);
             }
             else if (gSM.gameState == 0 && TimeOfDay != 12){
+                RenderSettings.skybox = day;
+                DirectionalLight.gameObject.SetActive(false);
                 TimeOfDay += daySpeed;
                 TimeOfDay %= 24; //Modulus to ensure always between 0-24
                 UpdateLighting(TimeOfDay / 24f);

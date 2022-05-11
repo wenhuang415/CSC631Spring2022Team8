@@ -31,7 +31,7 @@ public class GameStateScript : MonoBehaviourPunCallbacks
     {
         // gameState = 0;
         // shopTime = 30;//time in seconds
-        numPlayersAlive = 2;
+        numPlayersAlive = 1;
         Debug.Log("Shop is open for " + shopTime + " seconds" );
         gameMusic.Play();
         shopMusic.Play();
@@ -72,6 +72,7 @@ public class GameStateScript : MonoBehaviourPunCallbacks
             
             if(numEnemiesDefeated==numEnemiesToSpawn){
                 gameState = 0;
+                //sun.gameObject.SetActive(false);
                 shopTime = 5;//reset shop time. TEST VALUE
                 //shopTime = 30;//reset shop time.
                 numEnemiesToSpawn+=5;//add more enemies
