@@ -15,6 +15,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1694823900533527141, guid: 2d9ca9c519cc42346829166605ba15a3, type: 3}
+      propertyPath: m_Speed
+      value: 1.5
+      objectReference: {fileID: 0}
     - target: {fileID: 1694823900533527142, guid: 2d9ca9c519cc42346829166605ba15a3, type: 3}
       propertyPath: player
       value: 
