@@ -12,6 +12,8 @@ public class EnemyStateScript : MonoBehaviour
     public object bullet;
     public Animator animator;
     public bool isAlive;
+    public AudioSource audioSource;
+    public AudioClip audioClip;
 
     public GameObject loot;
 
@@ -56,6 +58,7 @@ public class EnemyStateScript : MonoBehaviour
 
     void death()
     {
+        audioSource.PlayOneShot(audioClip);
         isAlive = false;
         animator.SetTrigger("dead");
         Debug.Log("zombie is dead");
