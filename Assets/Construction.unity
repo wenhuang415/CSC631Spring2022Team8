@@ -3038,6 +3038,10 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1294492960856740, guid: 139b3e971e6648b459617b164e32d96d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1294492960856740, guid: 139b3e971e6648b459617b164e32d96d, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -53515,8 +53519,8 @@ GameObject:
   - component: {fileID: 1314331058}
   - component: {fileID: 1314331057}
   m_Layer: 0
-  m_Name: GameState Manager
-  m_TagString: Untagged
+  m_Name: Game State Manager
+  m_TagString: Manager
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -86514,6 +86518,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Zombie_Master
       objectReference: {fileID: 0}
+    - target: {fileID: 1189327744084523777, guid: c382bc475a821bb4eba57043a64deab3, type: 3}
+      propertyPath: gameState
+      value: 
+      objectReference: {fileID: 1314331055}
+    - target: {fileID: 1189327744084523777, guid: c382bc475a821bb4eba57043a64deab3, type: 3}
+      propertyPath: gameStateScript
+      value: 
+      objectReference: {fileID: 1314331055}
     - target: {fileID: 2207333874633465039, guid: c382bc475a821bb4eba57043a64deab3, type: 3}
       propertyPath: player
       value: 

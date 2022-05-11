@@ -15,6 +15,9 @@ public class EnemyStateScript : MonoBehaviour
 
     public GameObject loot;
 
+    public GameStateScript gameStateScript;
+    public GameObject gameStateManager;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +25,8 @@ public class EnemyStateScript : MonoBehaviour
         animator = GetComponent<Animator>();
         health = maxHealth;
         slider.value = CalculateHealth();
+        gameStateManager=GameObject.FindWithTag("Manager");
+        gameStateScript=(GameStateScript)gameStateManager.GetComponent(typeof(GameStateScript));
     }
 
     // Update is called once per frame
@@ -44,6 +49,9 @@ public class EnemyStateScript : MonoBehaviour
                 death();
             }
         }
+        else if(!isAlive&&(gameStateScript.gameState==0)){
+            Destroy(gameObject);
+        }
     }
 
     void death()
@@ -52,6 +60,7 @@ public class EnemyStateScript : MonoBehaviour
         animator.SetTrigger("dead");
         Debug.Log("zombie is dead");
         //animator.Play("death");
+        gameStateScript.AnotherOneBitesTheDust();
         spawnLoot();
     }
 
@@ -69,7 +78,6 @@ public class EnemyStateScript : MonoBehaviour
     {
         return health / maxHealth;
     }
-
     void spawnLoot(){
         
         Vector3 vector = transform.position;

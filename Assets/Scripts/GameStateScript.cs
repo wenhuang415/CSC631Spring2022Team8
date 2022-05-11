@@ -109,4 +109,8 @@ public class GameStateScript : MonoBehaviourPunCallbacks
         //Debug.Log("Spawning at location " + spawnLocation);
         Instantiate(Enemy, vector, Quaternion.identity);
     }
+
+    public void AnotherOneBitesTheDust(){
+        numEnemiesDefeated++;
+    }
 }
