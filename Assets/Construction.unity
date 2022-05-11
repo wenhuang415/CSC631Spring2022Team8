@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.43728572, g: 0.48505044, b: 0.56532407, a: 1}
+  m_IndirectSpecularColor: {r: 0.4394393, g: 0.48778403, b: 0.5680199, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -36001,13 +36001,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 868134220}
-  m_LocalRotation: {x: 0.028515097, y: 0.33880383, z: 0.63903785, w: -0.68994904}
-  m_LocalPosition: {x: -4.90073, y: -8.00617, z: -2.803028}
+  m_LocalRotation: {x: 0.097161636, y: 0.27503416, z: 0.6859978, w: -0.6665755}
+  m_LocalPosition: {x: -4.9006925, y: -8.006397, z: -2.8030157}
   m_LocalScale: {x: 0.45528218, y: 0.45528236, z: 0.45528233}
   m_Children: []
   m_Father: {fileID: 800050394}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -28.188, y: -29.28, z: -78.108}
+  m_LocalEulerAnglesHint: {x: -30.456, y: -15.707, z: -87.345}
 --- !u!1001 &873479897
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -85122,6 +85122,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5bda3d039886405dae485319d2614ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  defaultRooms: []
+  roomUI: {fileID: 0}
 --- !u!4 &2097629323
 Transform:
   m_ObjectHideFlags: 0
@@ -86679,7 +86681,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3519561846236606648, guid: 6a027da6713e5d24cb2f8cc68bdf842a, type: 3}
       propertyPath: health
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3519561846236606648, guid: 6a027da6713e5d24cb2f8cc68bdf842a, type: 3}
       propertyPath: script

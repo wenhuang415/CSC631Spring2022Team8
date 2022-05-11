@@ -15,13 +15,8 @@ public class DefaultRoom
 }
 public class NetworkManager : MonoBehaviourPunCallbacks
 {
-    //public List<DefaultRoom> defaultRooms;
-    //public GameObject roomUI;
-
-    private void Start()
-    {
-        ConnectToServer();
-    }
+    public List<DefaultRoom> defaultRooms;
+    public GameObject roomUI;
 
     // Method to connect to Photon server
     // Photon AppId:0a5d50a7-3e1e-4a12-8f96-62db1f68566a
@@ -36,16 +31,10 @@ public class NetworkManager : MonoBehaviourPunCallbacks
     {
         Debug.Log("Connected to Server.");
         base.OnConnectedToMaster();
-
-        RoomOptions roomOptions = new RoomOptions();
-        roomOptions.MaxPlayers = 4;
-        roomOptions.IsVisible = true;
-        roomOptions.IsOpen = true;
-
-        PhotonNetwork.JoinOrCreateRoom("Room 1",roomOptions,TypedLobby.Default);
+        PhotonNetwork.JoinLobby();
     }
 
-    /*
+    
     public override void OnJoinedLobby()
     {
         base.OnJoinedLobby();
@@ -59,7 +48,7 @@ public class NetworkManager : MonoBehaviourPunCallbacks
         DefaultRoom roomSettings = defaultRooms[defaultRoomIndex];
 
         //load scene
-        PhotonNetwork.LoadLevel(roomSettings.sceneIndex);
+        PhotonNetwork.LoadLevel(1);
 
         //create room
         RoomOptions roomOptions = new RoomOptions();
@@ -71,7 +60,7 @@ public class NetworkManager : MonoBehaviourPunCallbacks
         PhotonNetwork.JoinOrCreateRoom(roomSettings.Name, roomOptions, TypedLobby.Default);
     }
 
-    */
+    
 
     //function is called when player successfully joined a room
     public override void OnJoinedRoom()

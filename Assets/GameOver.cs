@@ -15,13 +15,13 @@ public class GameOver : MonoBehaviourPunCallbacks
     {
         Debug.Log("RESTART CLICKED");
         //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-        PhotonNetwork.LoadLevel(0);//load scene 1
+        PhotonNetwork.LoadLevel(1);//load scene 1
     }
 
    public void QuitButton()
     {
         Debug.Log("QUIT CLICKED");
-        PhotonNetwork.LoadLevel(2);
+        PhotonNetwork.LoadLevel(0);
     }
 
 }

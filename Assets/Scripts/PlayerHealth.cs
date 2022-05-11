@@ -16,7 +16,7 @@ public class PlayerHealth : MonoBehaviour
     {
         health = 10.0f;
         maxHealth = health;
-
+        script.numPlayersAlive++;
     }
 
     // Update is called once per frame

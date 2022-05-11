@@ -12,7 +12,7 @@ public class GameStateScript : MonoBehaviourPunCallbacks
 
     public float shopTime;
 
-    public int numPlayersAlive = 1;
+    public int numPlayersAlive;
 
     public int numEnemiesToSpawn=5;
 
@@ -31,6 +31,7 @@ public class GameStateScript : MonoBehaviourPunCallbacks
     {
         // gameState = 0;
         // shopTime = 30;//time in seconds
+        numPlayersAlive = 0;
         Debug.Log("Shop is open for " + shopTime + " seconds" );
         gameMusic.Play();
         shopMusic.Play();
@@ -41,7 +42,7 @@ public class GameStateScript : MonoBehaviourPunCallbacks
     {
         if(numPlayersAlive < 1)
         {
-            PhotonNetwork.LoadLevel(1);
+            PhotonNetwork.LoadLevel(2);
         }
 
         if (gameState == 0)//Time to shop!
