@@ -31,7 +31,7 @@ public class GameStateScript : MonoBehaviourPunCallbacks
     {
         // gameState = 0;
         // shopTime = 30;//time in seconds
-        numPlayersAlive = 0;
+        numPlayersAlive = 2;
         Debug.Log("Shop is open for " + shopTime + " seconds" );
         gameMusic.Play();
         shopMusic.Play();
