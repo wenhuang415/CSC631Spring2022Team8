@@ -14,6 +14,10 @@ public class EnemyBehaviour : MonoBehaviour
 
     public Animator animator;
 
+    public AudioSource audioSource;
+
+    public AudioClip zombieAttack;
+
     //Patroling
     public Vector3 walkPoint;
     bool walkPointSet;
@@ -33,6 +37,7 @@ public class EnemyBehaviour : MonoBehaviour
 
     private void Awake()
     {
+
         animator = GetComponent<Animator>();
         player = GameObject.Find("XR Rig").transform;
         agent = GetComponent<NavMeshAgent>();
@@ -49,6 +54,10 @@ public class EnemyBehaviour : MonoBehaviour
             if (!playerInSightRange && !playerInAttackRange) Patroling();
             if (playerInSightRange && !playerInAttackRange) ChasePlayer();
             if (playerInAttackRange && playerInSightRange) AttackPlayer();
+        }
+        else
+        {
+            agent.SetDestination(agent.transform.position);
         }
     }
 
@@ -92,8 +101,8 @@ public class EnemyBehaviour : MonoBehaviour
         if (!alreadyAttacked)
         {
             ///Attack code here
-           // animator.SetTrigger("attack");
-           
+            // animator.SetTrigger("attack");
+            audioSource.PlayOneShot(zombieAttack);
             Rigidbody rb = Instantiate(projectile, transform.position + new Vector3(0, 2, 0), Quaternion.identity).GetComponent<Rigidbody>();
             rb.AddForce(transform.forward * 32f, ForceMode.Impulse);
             rb.AddForce(transform.up * -12f, ForceMode.Impulse);
