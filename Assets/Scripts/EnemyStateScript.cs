@@ -10,7 +10,6 @@ public class EnemyStateScript : MonoBehaviour
     public Slider slider;//hp ui
     public GameObject healthBarUI;
     public object bullet;
-    public Animator animator;
     public bool isAlive;
     public AudioSource audioSource;
     public AudioClip audioClip;
@@ -24,7 +23,6 @@ public class EnemyStateScript : MonoBehaviour
     void Start()
     {
         isAlive = true;
-        animator = GetComponent<Animator>();
         health = maxHealth;
         slider.value = CalculateHealth();
         gameStateManager=GameObject.FindWithTag("Manager");
@@ -60,11 +58,9 @@ public class EnemyStateScript : MonoBehaviour
     {
         audioSource.PlayOneShot(audioClip);
         isAlive = false;
-        animator.SetTrigger("dead");
         Debug.Log("zombie is dead");
         gameStateScript.AnotherOneBitesTheDust();
         spawnLoot();
-        waiter();
     }
 
     void OnCollisionEnter(Collision collisionInfo)
@@ -95,11 +91,5 @@ public class EnemyStateScript : MonoBehaviour
                 break;
 
         }
-    }
-    IEnumerator waiter()
-    {
-        //Wait for 4 seconds
-        yield return new WaitForSeconds(4);
-        animator.gameObject.GetComponent<Animator>().enabled = false;
     }
 }

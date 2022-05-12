@@ -30,7 +30,7 @@ public class EnemyBehaviour : MonoBehaviour
 
     //States
     public float sightRange, attackRange;
-    public bool playerInSightRange, playerInAttackRange;
+    public bool playerInSightRange, playerInAttackRange, dead;
 
     //Scripts
     public EnemyStateScript script;
@@ -40,6 +40,7 @@ public class EnemyBehaviour : MonoBehaviour
         animator = GetComponent<Animator>();
         player = GameObject.Find("XR Rig").transform;
         agent = GetComponent<NavMeshAgent>();
+        dead = false;
     }
 
     private void Update()
@@ -57,6 +58,16 @@ public class EnemyBehaviour : MonoBehaviour
         else
         {
             agent.SetDestination(agent.transform.position);
+            Death();
+        }
+    }
+
+    private void Death()
+    {
+        if ( dead == false)
+        {
+            dead = true;
+            animator.SetTrigger("dead");
             waiter();
         }
     }
@@ -130,7 +141,7 @@ public class EnemyBehaviour : MonoBehaviour
     IEnumerator waiter()
     {
         //Wait for 4 seconds
-        yield return new WaitForSeconds(4);
+        yield return new WaitForSecondsRealtime(4);
         animator.gameObject.GetComponent<Animator>().enabled = false;
     }
     private void OnDrawGizmosSelected()
