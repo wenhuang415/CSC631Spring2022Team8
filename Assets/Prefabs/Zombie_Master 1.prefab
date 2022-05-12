@@ -589,7 +589,7 @@ Animator:
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: f6863227f0b9042ca9c8a77f55427062, type: 3}
   m_Controller: {fileID: 9100000, guid: 4d363a2a2a996034d98178425e009d41, type: 2}
-  m_CullingMode: 1
+  m_CullingMode: 2
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
@@ -653,7 +653,6 @@ MonoBehaviour:
   whatIsPlayer:
     serializedVersion: 2
     m_Bits: 64
-  animator: {fileID: 0}
   audioSource: {fileID: -1127718843790607727}
   zombieAttack: {fileID: 8300000, guid: ce3d235e22d0f4db3878ea46fea7b6e9, type: 3}
   walkPoint: {x: 0, y: 0, z: 0}

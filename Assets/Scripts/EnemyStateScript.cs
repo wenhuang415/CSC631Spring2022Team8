@@ -64,6 +64,7 @@ public class EnemyStateScript : MonoBehaviour
         Debug.Log("zombie is dead");
         gameStateScript.AnotherOneBitesTheDust();
         spawnLoot();
+        waiter();
     }
 
     void OnCollisionEnter(Collision collisionInfo)
@@ -94,5 +95,12 @@ public class EnemyStateScript : MonoBehaviour
                 break;
 
         }
+    }
+
+    IEnumerator waiter()
+    {
+        //Wait for 4 seconds
+        yield return new WaitForSeconds(4);
+        animator.gameObject.GetComponent<Animator>().enabled = false;
     }
 }
