@@ -37,7 +37,6 @@ public class EnemyBehaviour : MonoBehaviour
 
     private void Awake()
     {
-
         animator = GetComponent<Animator>();
         player = GameObject.Find("XR Rig").transform;
         agent = GetComponent<NavMeshAgent>();
@@ -63,6 +62,7 @@ public class EnemyBehaviour : MonoBehaviour
 
     private void Patroling()
     {
+        //animator.SetTrigger("");
         if (!walkPointSet) SearchWalkPoint();
 
         if (walkPointSet)
@@ -84,11 +84,15 @@ public class EnemyBehaviour : MonoBehaviour
         NavMeshHit hit;
         if (NavMesh.SamplePosition(walkPoint, out hit, 1.0f, NavMesh.AllAreas))
             walkPointSet = true;
+
+        // Animation
+        animator.SetTrigger("walk");
     }
 
     private void ChasePlayer()
     {
         agent.SetDestination(player.position);
+        animator.SetTrigger("walk");
     }
 
     private void AttackPlayer()
@@ -110,6 +114,7 @@ public class EnemyBehaviour : MonoBehaviour
 
             alreadyAttacked = true;
             Invoke(nameof(ResetAttack), timeBetweenAttacks);
+            animator.SetTrigger("hit");
         }
     }
     private void ResetAttack()
