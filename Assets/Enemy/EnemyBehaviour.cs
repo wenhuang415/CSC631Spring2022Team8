@@ -57,6 +57,7 @@ public class EnemyBehaviour : MonoBehaviour
         else
         {
             agent.SetDestination(agent.transform.position);
+            waiter();
         }
     }
 
@@ -126,7 +127,12 @@ public class EnemyBehaviour : MonoBehaviour
     {
         Destroy(gameObject);
     }
-
+    IEnumerator waiter()
+    {
+        //Wait for 4 seconds
+        yield return new WaitForSeconds(4);
+        animator.gameObject.GetComponent<Animator>().enabled = false;
+    }
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.red;

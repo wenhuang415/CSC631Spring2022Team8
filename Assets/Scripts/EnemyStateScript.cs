@@ -96,7 +96,6 @@ public class EnemyStateScript : MonoBehaviour
 
         }
     }
-
     IEnumerator waiter()
     {
         //Wait for 4 seconds
